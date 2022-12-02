@@ -14,6 +14,7 @@ public class BasePage extends Elements {
     public static void sendKeys(By by, String texto) {
 
         waitElement(by);
+        element(by).clear();
         element(by).sendKeys(texto);
     }
 
@@ -29,4 +30,9 @@ public class BasePage extends Elements {
         return element(by).getAttribute("innerText");
     }
 
+    public static boolean isSelected(By by) {
+
+        waitElement(by);
+        return element(by).isSelected();
+    }
 }

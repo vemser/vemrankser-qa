@@ -7,21 +7,16 @@ public class LoginPage extends BasePage{
 
     private static final By inputEmail =
             By.id("email");
-
     private static final By inputPasswrod =
             By.id("senha");
-
     private static final By btnLogin =
             By.id("botao-logar");
-
     private static final By campoMensagemErroToast =
             By.cssSelector("#\\31  > div.Toastify__toast-body > div:nth-child(2)");
-
     private static final By campoMensagemErroInputEmail =
-            By.cssSelector("#root > div.sc-dmctIk.gSUVpq > div.sc-fLcnxK.hoEJJc > form > span");
-
+            By.xpath("//*[@id=\"root\"]/div[2]/div[2]/form/span");
     private static final By campoMensagemErroInputSenha =
-            By.cssSelector("#root > div.sc-dmctIk.gSUVpq > div.sc-fLcnxK.hoEJJc > form > span");
+            By.xpath("//*[@id=\"root\"]/div[2]/div[2]/form/span");
 
 
 

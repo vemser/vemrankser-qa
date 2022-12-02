@@ -36,7 +36,6 @@ public class CadastrarTest extends BaseTest {
     @Story("Deve cadastrar com sucesso")
     public void testeDeveCadastrarTrilhaComSucesso() {
 
-
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
 
         TrilhaDTO trilhaCadastrada = trilhaClient.cadastrar(Utils.convertTrilhaToJson(trilha))

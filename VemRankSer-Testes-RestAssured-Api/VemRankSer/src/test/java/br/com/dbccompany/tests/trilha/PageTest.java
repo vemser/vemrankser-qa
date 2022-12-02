@@ -40,7 +40,7 @@ public class PageTest extends BaseTest {
     UsuarioClient usuarioClient = new UsuarioClient();
 
     @Test
-    @Story("Deve listarUsuarios os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveListarPorTrilhaComAlunos() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -62,8 +62,6 @@ public class PageTest extends BaseTest {
     @Story("Deve retornar lista vazia")
     public void testeDeveRetornarListaVaziaAoBuscarPorTrilhaInexistenteComAlunos() {
 
-        PageClient pageClient = new PageClient();
-
         PageDTO lista = pageClient.listarTrilhaComUsuarios("0","1", "TrilhaNova")
                 .then()
                 .statusCode(HttpStatus.SC_OK)
@@ -74,7 +72,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarUsuarios os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarListaDeTrilhaPorNome() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -93,7 +91,6 @@ public class PageTest extends BaseTest {
     @Story("Deve retornar lista vazia")
     public void testeDeveRetornarErroAoBuscarListaDeTrilhaPorNomeInexistente() {
 
-
         ArrayList lista = pageClient.listarTrilhaPorNome(Utils.faker.random().hex())
                 .then()
                 .statusCode(HttpStatus.SC_OK)
@@ -104,7 +101,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarUsuarios os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarListaPorRanking() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -135,7 +132,6 @@ public class PageTest extends BaseTest {
     @Story("Deve retornar mensagem de erro")
     public void testeDeveRetornarErroAoBuscarListaDeTrilhaPorIdNegativo() {
 
-
         ResponseDTO lista = pageClient.listarTrilhaPorRanking(Utils.faker.number().negative())
                 .then()
                 .extract().as(ResponseDTO.class)
@@ -145,7 +141,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarUsuarios os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarListaDeTrilhaPorEdicao() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -164,7 +160,6 @@ public class PageTest extends BaseTest {
     @Story("Deve retornar lista vazia")
     public void testeDeveRetornarVazioAoBuscarListaDeTrilhaPorEdicaoNegativo() {
 
-
         ArrayList lista = pageClient.listarTrilhaPorEdicao(Utils.faker.number().negative())
                 .then()
                 .statusCode(HttpStatus.SC_OK)
@@ -175,7 +170,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarUsuarios os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarTrilhaBuscadaPorId() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -196,7 +191,6 @@ public class PageTest extends BaseTest {
     @Test
     @Story("Deve retornar mensagem de erro")
     public void testeDeveRetornarErroAoBuscarTrilhaPorIdNegativo() {
-
 
         ResponseDTO responseServer = pageClient.buscarTrilhaPorId(Utils.faker.number().negative())
                 .then()

@@ -1,20 +1,12 @@
 package br.com.dbccompany.model;
 
-import br.com.dbccompany.dto.TrilhaDTO;
-import org.joda.time.DateTime;
-
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.util.Date;
-import java.util.List;
-
 public class ModuloBuilder {
 
     private String nome;
     private String dataInicio;
     private String dataFim;
+    private Integer idMoulo;
+    private Integer idTrilha;
 
     public ModuloBuilder nome(String nome) {
         this.nome = nome;
@@ -31,7 +23,19 @@ public class ModuloBuilder {
         return this;
     }
 
+    public ModuloBuilder idMoulo(Integer idMoulo) {
+        this.idMoulo = idMoulo;
+        return this;
+    }
+
+    public ModuloBuilder idTrilha(Integer idTrilha) {
+        this.idTrilha = idTrilha;
+        return this;
+    }
+
     public Modulo build() {
         return new Modulo(nome, dataInicio, dataFim);
     }
+
+    public Modulo buildVinculacaoComTrilha() { return new Modulo(idMoulo, idTrilha);}
 }

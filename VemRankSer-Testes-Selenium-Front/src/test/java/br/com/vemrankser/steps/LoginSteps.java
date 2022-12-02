@@ -1,5 +1,6 @@
 package br.com.vemrankser.steps;
 
+import br.com.vemrankser.browserHandler.Elements;
 import br.com.vemrankser.pages.LoginPage;
 import br.com.vemrankser.utils.Utils;
 import br.com.vemrankser.utils.Manipulation;
@@ -22,10 +23,11 @@ public class LoginSteps extends BaseSteps{
     @Test
     @Feature("Login")
     @Story("Deve atualizar usuario com sucesso")
-    public void testeDeveLogarComSucesso() {
+    public void testeDeveLogarComSucesso() throws InterruptedException {
 
         Utils.logar();
-
+        Thread.sleep(3000);
+        Assert.assertNotEquals(Elements.getUrl(), "https://vemrankser.vercel.app/");
     }
 
     @Test

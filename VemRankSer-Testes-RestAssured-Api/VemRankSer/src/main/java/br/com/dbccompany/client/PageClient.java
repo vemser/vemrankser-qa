@@ -1,8 +1,10 @@
 package br.com.dbccompany.client;
 
+import br.com.dbccompany.data.changeless.ModuloData;
 import br.com.dbccompany.data.changeless.PageData;
 import br.com.dbccompany.data.changeless.TrilhaData;
 import br.com.dbccompany.data.changeless.UsuarioData;
+import br.com.dbccompany.dto.ModuloDTO;
 import br.com.dbccompany.specs.AuthSpecs;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -162,6 +164,41 @@ public class PageClient {
                         .queryParam(TrilhaData.ID_TRILHA, idTrilha)
                     .when()
                         .get(TrilhaData.BUSCAR_ID_TRILHA)
+                ;
+    }
+
+    public Response listaTodosModulos() {
+
+        return
+                given()
+                        .log().all()
+                        .spec(AuthSpecs.requestSpecAdmin())
+                    .when()
+                        .get(ModuloData.LISTA_TODOS_MODULOS)
+                ;
+    }
+
+    public Response buscaModuloPorId(Integer idModulo) {
+
+        return
+                given()
+                        .log().all()
+                        .spec(AuthSpecs.requestSpecAdmin())
+                        .queryParam(ModuloData.ID_MODULO, idModulo)
+                    .when()
+                        .get(ModuloData.BUSCA_MODULO_IDMODULO)
+                ;
+    }
+
+    public Response buscaModuloPorIdNumeroFloat(float idModulo) {
+
+        return
+                given()
+                        .log().all()
+                        .spec(AuthSpecs.requestSpecAdmin())
+                        .queryParam(ModuloData.ID_MODULO, idModulo)
+                    .when()
+                        .get(ModuloData.BUSCA_MODULO_IDMODULO)
                 ;
     }
 }

@@ -120,7 +120,6 @@ public class PageTest extends BaseTest {
     @Story("Deve retornar erro ao listar")
     public void testeDeveRetornarErroAoListarUsuariosInexistentePorNome() {
 
-
         TodosDTO[] listaPorNome = pageClient.listarUsuarioPorNome(Utils.faker.name().firstName())
                 .then()
                 .extract().as(TodosDTO[].class);
@@ -131,7 +130,6 @@ public class PageTest extends BaseTest {
     @Test
     @Story("Deve os elementos com sucesso")
     public void testeDeveRetonarAlunosPorLogin() {
-
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
 
@@ -156,7 +154,6 @@ public class PageTest extends BaseTest {
     @Test
     @Story("Deve retornar erro ao listar")
     public void testeDeveRetonarErroPadraoAoBuscarAlunoPorLoginInexistente() {
-
 
         ResponseDTO responseServer = pageClient.buscarAlunoPorLogin(Utils.faker.name().firstName())
                 .then()
@@ -222,7 +219,6 @@ public class PageTest extends BaseTest {
         PageDTO listaDeTrilhasAluno = pageClient.buscarListaDeTrilhaDoAluno("0", "1", usuarioNovoCadastrado.getNome())
                 .then()
                 .statusCode(HttpStatus.SC_OK)
-                .log().all()
                 .extract().as(PageDTO.class);
 
         Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getIdUsuario(), usuarioNovoCadastrado.getIdUsuario());

@@ -33,4 +33,5 @@ public class TodosDTO {
     private String login;
     private String cidade;
     private String especialidade;
+    private Integer idModulo;
 }

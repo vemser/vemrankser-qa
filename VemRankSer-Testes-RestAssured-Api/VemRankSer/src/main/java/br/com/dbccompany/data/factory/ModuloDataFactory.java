@@ -3,8 +3,11 @@ package br.com.dbccompany.data.factory;
 import br.com.dbccompany.dto.TrilhaDTO;
 import br.com.dbccompany.model.*;
 import br.com.dbccompany.utils.Utils;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.time.DateUtils;
 import org.joda.time.DateTime;
 
+import javax.xml.crypto.Data;
 import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
@@ -24,6 +27,33 @@ public class ModuloDataFactory {
 
     public static Modulo novoModulo() {
         return criarModulo();
+    }
+
+    public static Modulo moduloDataFormatoErrado() {
+        Date date = new Date();
+        Modulo moduloDataFormatoErrado = criarModulo();
+        moduloDataFormatoErrado.setDataInicio(DateUtils.addHours(date, 5).toString());
+        moduloDataFormatoErrado.setDataFim(DateUtils.addHours(date, 7).toString());
+
+        return moduloDataFormatoErrado;
+    }
+
+    public static Modulo moduloSemNome() {
+
+        Modulo moduloSemNome = criarModulo();
+        moduloSemNome.setNome(StringUtils.EMPTY);
+
+        return moduloSemNome;
+    }
+
+    public static Modulo vincularModuloComTrilha(Integer idModulo, Integer idTrilha) {
+
+        Modulo moduloVinculadoATrilha = new ModuloBuilder()
+                .idMoulo(idModulo)
+                .idTrilha(idTrilha)
+                .buildVinculacaoComTrilha();
+
+        return moduloVinculadoATrilha;
     }
 
     private static Modulo criarModulo() {

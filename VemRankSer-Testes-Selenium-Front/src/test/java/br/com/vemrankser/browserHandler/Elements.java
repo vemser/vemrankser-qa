@@ -5,6 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 public class Elements extends BaseSteps {
 
     public static WebElement element(By element) {
@@ -15,5 +18,10 @@ public class Elements extends BaseSteps {
     public static void waitElement(By element) {
 
         wait.until(ExpectedConditions.presenceOfElementLocated(element));
+    }
+
+    public static String getUrl() {
+
+        return driver.getCurrentUrl();
     }
 }

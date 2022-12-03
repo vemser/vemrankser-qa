@@ -13,8 +13,8 @@ public class AtividadeDTO {
     private String titulo;
     private String instrucoes;
     private Integer pesoAtividade;
-    private Date dataCriacao;
-    private Date dataEntrega;
+    private String dataCriacao;
+    private String dataEntrega;
     private Integer pontuacao;
     private String link;
     private Integer statusAtividade;

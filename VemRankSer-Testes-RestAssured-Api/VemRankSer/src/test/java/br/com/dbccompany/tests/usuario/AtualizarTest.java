@@ -37,10 +37,12 @@ public class AtualizarTest extends BaseTest {
                 (UsuarioData.COORDENADOR, Utils.convertUsusarioToJson(UsuarioDataFactory.usuarioValido()))
                         .then()
                                 .statusCode(HttpStatus.SC_CREATED)
+                .log().all()
                                 .extract().as(UsuarioDTO.class);
 
         usuarioClient.atualizarFoto(usuarioNovo.getIdUsuario())
                 .then()
+                .log().all()
                 .statusCode(HttpStatus.SC_OK)
         ;
     }

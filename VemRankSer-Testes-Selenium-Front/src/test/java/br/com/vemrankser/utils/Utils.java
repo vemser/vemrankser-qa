@@ -16,7 +16,6 @@ public class Utils extends BaseSteps {
 
     static UsuarioPage usuarioPage = new UsuarioPage();
 
-    static DashboardPage dashboardPage = new DashboardPage();
 
     public static Faker faker = new Faker(new Locale("pt-BR"));
 

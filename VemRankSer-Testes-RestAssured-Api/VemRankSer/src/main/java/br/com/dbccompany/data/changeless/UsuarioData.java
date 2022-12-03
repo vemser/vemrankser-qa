@@ -17,7 +17,7 @@ public class UsuarioData {
 
     public static final String LOGIN = "login";
 
-
+    public static final String ID_USUARIO = "idUsuario";
 
     public static final String TIPOPERFIL = "tipoPerfil";
 

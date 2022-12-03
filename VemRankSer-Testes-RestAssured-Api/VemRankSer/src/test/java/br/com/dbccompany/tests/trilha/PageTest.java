@@ -8,6 +8,7 @@ import br.com.dbccompany.data.factory.TrilhaDataFactory;
 import br.com.dbccompany.data.factory.UsuarioDataFactory;
 import br.com.dbccompany.dto.PageDTO;
 import br.com.dbccompany.dto.ResponseDTO;
+import br.com.dbccompany.dto.TodosDTO;
 import br.com.dbccompany.dto.TrilhaDTO;
 import br.com.dbccompany.model.Trilha;
 import br.com.dbccompany.model.Usuario;
@@ -25,6 +26,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -40,21 +42,29 @@ public class PageTest extends BaseTest {
     UsuarioClient usuarioClient = new UsuarioClient();
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveListarPorTrilhaComAlunos() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
+        TrilhaDTO trilhaCadastrada = trilhaClient.cadastrar(Utils.convertTrilhaToJson(trilha))
+                .then()
+                .extract().as(TrilhaDTO.class)
+                ;
 
-        PageDTO lista = pageClient.listarTrilhaComUsuarios("0","1", trilha.getNome())
+        PageDTO lista = pageClient.listarTrilhaComUsuarios("0","1", trilhaCadastrada.getIdTrilha())
             .then()
                 .statusCode(HttpStatus.SC_OK)
                 .extract().as(PageDTO.class)
                 ;
 
+        List<TodosDTO> trilhaBuscada = lista.getElementos();
+
         assertAll("lista",
                 () -> assertEquals("0", lista.getPagina()),
                 () -> assertEquals("1", lista.getTamanho()),
-                () -> assertNotNull(lista.getElementos())
+                () -> assertEquals(trilhaBuscada.get(0).getIdTrilha(), trilhaCadastrada.getIdTrilha()),
+                () -> assertEquals(trilhaBuscada.get(0).getEdicao(), trilhaCadastrada.getEdicao()),
+                () -> assertEquals(trilhaBuscada.get(0).getNome(), trilhaCadastrada.getNome())
         );
     }
 
@@ -62,7 +72,7 @@ public class PageTest extends BaseTest {
     @Story("Deve retornar lista vazia")
     public void testeDeveRetornarListaVaziaAoBuscarPorTrilhaInexistenteComAlunos() {
 
-        PageDTO lista = pageClient.listarTrilhaComUsuarios("0","1", "TrilhaNova")
+        PageDTO lista = pageClient.listarTrilhaComUsuarios("0","1", 0)
                 .then()
                 .statusCode(HttpStatus.SC_OK)
                 .extract().as(PageDTO.class)
@@ -72,7 +82,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveRetornarListaDeTrilhaPorNome() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -101,7 +111,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveRetornarListaPorRanking() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -141,7 +151,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveRetornarListaDeTrilhaPorEdicao() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -170,7 +180,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveRetornarTrilhaBuscadaPorId() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();

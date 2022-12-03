@@ -35,5 +35,4 @@ public class LoginClient {
                         .get(LoginData.BUSCAR_USUARIO_LOGADO)
                 ;
     }
-
 }

@@ -1,9 +1,6 @@
 package br.com.dbccompany.utils;
 
-import br.com.dbccompany.model.Login;
-import br.com.dbccompany.model.Modulo;
-import br.com.dbccompany.model.Trilha;
-import br.com.dbccompany.model.Usuario;
+import br.com.dbccompany.model.*;
 import com.google.gson.Gson;
 import net.datafaker.Faker;
 import org.junit.Assert;
@@ -61,6 +58,8 @@ public class Utils {
     public static String convertTrilhaToJson(Trilha trilha) { return new Gson().toJson(trilha); }
 
     public static String convertModuloToJson(Modulo modulo) { return new Gson().toJson(modulo); }
+
+    public static String converterAtividadeToJson(Atividade atividade) { return new Gson().toJson(atividade); }
 
 
 }

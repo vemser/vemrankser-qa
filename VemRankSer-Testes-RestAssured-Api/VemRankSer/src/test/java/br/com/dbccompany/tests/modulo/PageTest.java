@@ -4,12 +4,10 @@ import br.com.dbccompany.client.ModuloClient;
 import br.com.dbccompany.client.PageClient;
 import br.com.dbccompany.data.factory.ModuloDataFactory;
 import br.com.dbccompany.dto.ModuloDTO;
-import br.com.dbccompany.dto.PageDTO;
-
-import br.com.dbccompany.dto.ResponseDTO;
 import br.com.dbccompany.model.Modulo;
 import br.com.dbccompany.tests.base.BaseTest;
 import br.com.dbccompany.utils.Utils;
+
 import io.qameta.allure.Story;
 
 import org.apache.http.HttpStatus;
@@ -24,7 +22,7 @@ public class PageTest extends BaseTest {
     PageClient pageClient = new PageClient();
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveListarTodosOsModulos() {
 
         Modulo novoModulo = ModuloDataFactory.novoModulo();
@@ -39,7 +37,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listar os elementos com sucesso")
+    @Story("Deve listarPaginado os elementos com sucesso")
     public void testeDeveListarModuloPorId() {
 
         Modulo novoModulo = ModuloDataFactory.novoModulo();
@@ -60,7 +58,6 @@ public class PageTest extends BaseTest {
     @Test
     @Story("Deve retornar mensagem de erro")
     public void testeDeveRetornarMensagemDeErroAoBuscarIdModuloComNumeroFloat() {
-
 
         pageClient.buscaModuloPorIdNumeroFloat(Utils.faker.random().nextFloat())
                 .then()

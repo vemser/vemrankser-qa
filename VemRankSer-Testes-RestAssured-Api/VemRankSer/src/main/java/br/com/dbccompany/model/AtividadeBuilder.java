@@ -9,10 +9,13 @@ public class AtividadeBuilder {
 
     private String titulo;
     private String instrucoes;
-    private Integer pesoAtivdade;
-    private Date dataCriacao;
-    private Date dataEntrega;
+    private Integer pesoAtividade;
+    private String dataCriacao;
+    private String dataEntrega;
     private Integer idModulo;
+
+    private Integer pontuacao;
+    private String link;
     private List<TrilhaDTO> trilha;
 
     public AtividadeBuilder titulo(String titulo) {
@@ -25,18 +28,18 @@ public class AtividadeBuilder {
         return this;
     }
 
-    public AtividadeBuilder pesoAtivdade(Integer pesoAtivdade) {
-        this.pesoAtivdade = pesoAtivdade;
+    public AtividadeBuilder pesoAtividade(Integer pesoAtividade) {
+        this.pesoAtividade = pesoAtividade;
         return this;
     }
 
 
-    public AtividadeBuilder dataCriacao(Date dataCriacao) {
+    public AtividadeBuilder dataCriacao(String dataCriacao) {
         this.dataCriacao = dataCriacao;
         return this;
     }
 
-    public AtividadeBuilder dataEntrega(Date dataEntrega) {
+    public AtividadeBuilder dataEntrega(String dataEntrega) {
         this.dataEntrega = dataEntrega;
         return this;
     }
@@ -51,8 +54,25 @@ public class AtividadeBuilder {
         return this;
     }
 
+    public AtividadeBuilder pontuacao(Integer pontuacao) {
+        this.pontuacao = pontuacao;
+        return this;
+    }
+
+    public AtividadeBuilder link(String link) {
+        this.link = link;
+        return this;
+    }
 
     public Atividade build() {
-        return new Atividade(titulo, instrucoes, pesoAtivdade, dataCriacao, dataEntrega, idModulo, trilha);
+        return new Atividade(titulo, instrucoes, pesoAtividade, dataCriacao, dataEntrega, idModulo, trilha);
+    }
+
+    public Atividade buildLink() {
+        return new Atividade(link);
+    }
+
+    public Atividade buildPontuacao() {
+        return new Atividade(pontuacao);
     }
 }

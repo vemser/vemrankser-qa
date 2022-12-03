@@ -14,7 +14,7 @@ public class TrilhaData {
 
     public static final String VINCULAR_TRILHA_AO_INSTRUTOR = String.format("/trilha/adicionar-instrutor-trilha");
 
-    public static final String LISTAR_TRILHAS_COM_USUARIOS = String.format("/trilha/lista-usuarios/");
+    public static final String LISTAR_TRILHAS_COM_USUARIOS = String.format("/trilha/lista-alunos-trilha/");
 
     public static final String LISTAR_TRILHA_POR_NOME = String.format("/trilha/lista-trilha-nome/");
 

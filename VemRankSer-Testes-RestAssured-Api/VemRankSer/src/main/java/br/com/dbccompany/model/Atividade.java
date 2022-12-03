@@ -11,20 +11,30 @@ public class Atividade {
 
     private String titulo;
     private String instrucoes;
-    private Integer pesoAtivdade;
-    private Date dataCriacao;
-    private Date dataEntrega;
+    private Integer pesoAtividade;
+    private String dataCriacao;
+    private String dataEntrega;
     private Integer idModulo;
+    private Integer pontuacao;
+    private String link;
     private List<TrilhaDTO> trilha;
 
-    public Atividade(String titulo, String instrucoes, Integer pesoAtivdade, Date dataCriacao, Date dataEntrega, Integer idModulo, List<TrilhaDTO> trilha) {
+    public Atividade(String titulo, String instrucoes, Integer pesoAtividade, String dataCriacao, String dataEntrega, Integer idModulo, List<TrilhaDTO> trilha) {
         this.titulo = titulo;
         this.instrucoes = instrucoes;
-        this.pesoAtivdade = pesoAtivdade;
+        this.pesoAtividade = pesoAtividade;
         this.dataCriacao = dataCriacao;
         this.dataEntrega = dataEntrega;
         this.idModulo = idModulo;
         this.trilha = trilha;
+    }
+
+    public Atividade(Integer pontuacao) {
+        this.pontuacao = pontuacao;
+    }
+
+    public Atividade(String link) {
+        this.link = link;
     }
 
     @Override
@@ -32,7 +42,7 @@ public class Atividade {
         return "Atividade{" +
                 "titulo='" + titulo + '\'' +
                 ", instrucoes='" + instrucoes + '\'' +
-                ", pesoAtivdade=" + pesoAtivdade +
+                ", pesoAtivdade=" + pesoAtividade +
                 ", dataCriacao=" + dataCriacao +
                 ", dataEntrega=" + dataEntrega +
                 ", idModulo=" + idModulo +

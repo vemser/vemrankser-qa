@@ -54,7 +54,7 @@ public class PageClient {
                 ;
     }
 
-    public Response listarTrilhaComUsuarios(String pagina, String tamanho, String nome) {
+    public Response listarTrilhaComUsuarios(String pagina, String tamanho, Integer idTrilha) {
 
         return
                 given()
@@ -62,7 +62,7 @@ public class PageClient {
                         .spec(AuthSpecs.requestSpecAdmin())
                         .queryParam(PageData.PAGINA, pagina)
                         .queryParam(PageData.TAMANHO, tamanho)
-                        .queryParam(PageData.NOME, nome)
+                        .queryParam(TrilhaData.ID_TRILHA, idTrilha)
                     .when()
                         .get(TrilhaData.LISTAR_TRILHAS_COM_USUARIOS)
                 ;

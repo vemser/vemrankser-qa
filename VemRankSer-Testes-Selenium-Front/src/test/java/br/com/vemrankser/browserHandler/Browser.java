@@ -25,7 +25,6 @@ public class Browser {
         options.setCapability( "goog:loggingPrefs", logPrefs );
         options.addArguments("--disable-web-security","--ignore-certificate-errors", "--allow-running-insecure-content");
 
-
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, Duration.ofSeconds(20, 1));
 

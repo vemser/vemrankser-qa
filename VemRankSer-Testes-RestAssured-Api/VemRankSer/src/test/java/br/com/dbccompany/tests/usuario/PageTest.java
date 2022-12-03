@@ -74,7 +74,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listar")
+    @Story("Deve retornar erro ao listarPaginado")
     public void testeDeveRetornarErroAoListarUsuariosSemEstarLogado() {
 
         pageClient.listarUsuariosSemAuth("0","0", "nome", "nome")
@@ -84,7 +84,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listar")
+    @Story("Deve retornar erro ao listarPaginado")
     public void testeDeveRetornarErroAoListarUsuariosComTamanhoListaZerado() {
 
         pageClient.listarUsuarios("0","0", "nome")
@@ -117,7 +117,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listar")
+    @Story("Deve retornar erro ao listarPaginado")
     public void testeDeveRetornarErroAoListarUsuariosInexistentePorNome() {
 
         TodosDTO[] listaPorNome = pageClient.listarUsuarioPorNome(Utils.faker.name().firstName())
@@ -152,7 +152,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listar")
+    @Story("Deve retornar erro ao listarPaginado")
     public void testeDeveRetonarErroPadraoAoBuscarAlunoPorLoginInexistente() {
 
         ResponseDTO responseServer = pageClient.buscarAlunoPorLogin(Utils.faker.name().firstName())
@@ -181,7 +181,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listar")
+    @Story("Deve retornar erro ao listarPaginado")
     public void testeDeveRetornarErroAoListarAlunosPorPaginaNegativa() {
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
@@ -259,7 +259,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listar")
+    @Story("Deve retornar erro ao listarPaginado")
     public void testeDeveRetornarErroAoBuscarUsuarioPorIdNegativo() {
 
         ResponseDTO responseServer = pageClient.buscarUsuarioPorId(Utils.faker.number().negative())

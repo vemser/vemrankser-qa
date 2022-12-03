@@ -1,15 +1,10 @@
 package br.com.dbccompany.client;
 
 import br.com.dbccompany.data.changeless.ModuloData;
-import br.com.dbccompany.data.changeless.TrilhaData;
 import br.com.dbccompany.specs.AuthSpecs;
-
 
 import io.restassured.response.Response;
 
-import java.time.LocalDate;
-import java.time.ZoneId;
-import java.util.Date;
 
 import static io.restassured.RestAssured.given;
 
@@ -34,11 +29,9 @@ public class ModuloClient {
                 given()
                         .log().all()
                         .spec(AuthSpecs.requestSpecAdmin())
-                        .pathParam(ModuloData.ID_MODULO, idModulo)
-                        .pathParam(TrilhaData.ID_TRILHA, idTrilha)
                         .body(vinculacao)
                     .when()
-                        .post(ModuloData.VINCULAR_MODULO_TRILHA+"{"+ModuloData.ID_MODULO+"}"+"/{"+TrilhaData.ID_TRILHA+"}")
+                        .post(ModuloData.VINCULAR_MODULO_TRILHA+idModulo+"/"+idTrilha)
                 ;
     }
 }

@@ -59,4 +59,6 @@ public class Utils {
     public static String convertModuloToJson(Modulo modulo) { return new Gson().toJson(modulo); }
 
     public static String converterAtividadeToJson(Atividade atividade) { return new Gson().toJson(atividade); }
+
+    public static String converterComentarioToJson(Comentario comentario) { return new Gson().toJson(comentario); }
 }

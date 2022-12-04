@@ -74,7 +74,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listarPaginado")
+    @Story("Deve retornar erro ao listar")
     public void testeDeveRetornarErroAoListarUsuariosSemEstarLogado() {
 
         pageClient.listarUsuariosSemAuth("0","0", "nome", "nome")
@@ -84,7 +84,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listarPaginado")
+    @Story("Deve retornar erro ao listar")
     public void testeDeveRetornarErroAoListarUsuariosComTamanhoListaZerado() {
 
         pageClient.listarUsuarios("0","0", "nome")
@@ -117,7 +117,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listarPaginado")
+    @Story("Deve retornar erro ao listar")
     public void testeDeveRetornarErroAoListarUsuariosInexistentePorNome() {
 
         TodosDTO[] listaPorNome = pageClient.listarUsuarioPorNome(Utils.faker.name().firstName())
@@ -152,7 +152,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listarPaginado")
+    @Story("Deve retornar erro ao listar")
     public void testeDeveRetonarErroPadraoAoBuscarAlunoPorLoginInexistente() {
 
         ResponseDTO responseServer = pageClient.buscarAlunoPorLogin(Utils.faker.name().firstName())
@@ -181,7 +181,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listarPaginado")
+    @Story("Deve retornar erro ao listar")
     public void testeDeveRetornarErroAoListarAlunosPorPaginaNegativa() {
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
@@ -212,11 +212,9 @@ public class PageTest extends BaseTest {
                 .extract().as(TrilhaDTO.class)
                 ;
         Trilha vincularTrilha = TrilhaDataFactory.vincularTrilha(trilhaResponse.getIdTrilha(), usuarioNovo.getLogin());
-        trilhaClient.vincularTrilhaAluno(trilhaResponse.getIdTrilha(), usuarioNovo.getLogin(), Utils.convertTrilhaToJson(vincularTrilha))
-                .then()
-                ;
+        trilhaClient.vincularTrilhaAluno(trilhaResponse.getIdTrilha(), usuarioNovo.getLogin(), Utils.convertTrilhaToJson(vincularTrilha));
 
-        PageDTO listaDeTrilhasAluno = pageClient.buscarListaDeTrilhaDoAluno("0", "1", usuarioNovoCadastrado.getNome())
+        PageDTO listaDeTrilhasAluno = pageClient.buscarListaDeTrilhaDoAluno("0", "1", usuarioNovoCadastrado.getNome(), trilhaResponse.getIdTrilha())
                 .then()
                 .statusCode(HttpStatus.SC_OK)
                 .extract().as(PageDTO.class);
@@ -226,10 +224,8 @@ public class PageTest extends BaseTest {
         Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getEmail(), usuarioNovoCadastrado.getEmail());
         Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getStatusUsuario(), usuarioNovoCadastrado.getStatusUsuario());
         Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getTipoPerfil(), usuarioNovoCadastrado.getTipoPerfil());
-        Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getTrilhas().get(0).getIdTrilha(), trilhaResponse.getIdTrilha());
-        Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getTrilhas().get(0).getAnoEdicao(), trilhaResponse.getAnoEdicao());
-        Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getTrilhas().get(0).getEdicao(), trilhaResponse.getEdicao());
-        Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getTrilhas().get(0).getNome(), trilhaResponse.getNome());
+        Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getIdTrilha(), trilhaResponse.getIdTrilha());
+        Assertions.assertEquals(listaDeTrilhasAluno.getElementos().get(0).getEdicao(), trilhaResponse.getEdicao());
     }
 
 
@@ -259,7 +255,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve retornar erro ao listarPaginado")
+    @Story("Deve retornar erro ao listar")
     public void testeDeveRetornarErroAoBuscarUsuarioPorIdNegativo() {
 
         ResponseDTO responseServer = pageClient.buscarUsuarioPorId(Utils.faker.number().negative())

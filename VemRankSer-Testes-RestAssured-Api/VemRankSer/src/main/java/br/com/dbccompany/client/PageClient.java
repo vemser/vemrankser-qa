@@ -126,7 +126,7 @@ public class PageClient {
                 ;
     }
 
-    public Response buscarListaDeTrilhaDoAluno(String pagina, String tamanho, String nome) {
+    public Response buscarListaDeTrilhaDoAluno(String pagina, String tamanho, String nome, Integer idTrilha) {
 
         return
                 given()
@@ -135,6 +135,7 @@ public class PageClient {
                     .queryParam(PageData.PAGINA, pagina)
                     .queryParam(PageData.TAMANHO, tamanho)
                     .queryParam(PageData.NOME, nome)
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
                 .when()
                     .get(PageData.LISTAR_ALUNOS_TRILHA)
                 ;

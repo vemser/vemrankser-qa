@@ -2,12 +2,12 @@ package br.com.vemrankser.steps;
 
 import br.com.vemrankser.browserHandler.Elements;
 import br.com.vemrankser.pages.ComponentsPage;
-import br.com.vemrankser.pages.UsuarioPage;
+
 import br.com.vemrankser.utils.Utils;
 import io.qameta.allure.Feature;
-import io.qameta.allure.Step;
+
 import io.qameta.allure.Story;
-import org.openqa.selenium.By;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

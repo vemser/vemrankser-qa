@@ -37,4 +37,6 @@ public class TodosDTO {
     private String statusAtividade;
     private String nomeModulo;
     private String trilhaNome;
+    private String foto;
+    private String nomeTrilha;
 }

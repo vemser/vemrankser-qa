@@ -40,7 +40,7 @@ public class CadastrarTest extends BaseTest {
 
         TrilhaDTO trilhaCadastrada = trilhaClient.cadastrar(Utils.convertTrilhaToJson(trilha))
                 .then()
-                .statusCode(HttpStatus.SC_CREATED)
+                .statusCode(HttpStatus.SC_OK)
                 .extract().as(TrilhaDTO.class)
                 ;
 
@@ -86,7 +86,7 @@ public class CadastrarTest extends BaseTest {
                 .extract().as(ResponseDTO.class)
         ;
 
-        Assertions.assertEquals((int)responseBody.getStatus(), HttpStatus.SC_NOT_FOUND);
+        Assertions.assertEquals((int)responseBody.getStatus(), HttpStatus.SC_INTERNAL_SERVER_ERROR);
     }
 
     @Test
@@ -166,6 +166,6 @@ public class CadastrarTest extends BaseTest {
                 .extract().as(ResponseDTO.class)
                 ;
 
-        Assertions.assertEquals((int)responseBody.getStatus(), HttpStatus.SC_NOT_FOUND);
+        Assertions.assertEquals((int)responseBody.getStatus(), HttpStatus.SC_BAD_REQUEST);
     }
 }

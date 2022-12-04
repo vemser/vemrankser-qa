@@ -1,9 +1,9 @@
 package br.com.vemrankser.pages;
 
-import com.fasterxml.jackson.databind.ser.Serializers;
+
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 public class DashboardPage extends BasePage {
 

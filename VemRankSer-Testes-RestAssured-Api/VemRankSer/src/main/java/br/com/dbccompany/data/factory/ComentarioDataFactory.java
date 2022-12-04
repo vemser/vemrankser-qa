@@ -12,8 +12,8 @@ public class ComentarioDataFactory {
 
     private static Comentario novoComentario() {
 
-        Comentario comentario = new ComentarioBuilder().
-                comentario(Utils.faker.random().hex())
+        Comentario comentario = new ComentarioBuilder()
+                .comentario(Utils.faker.random().hex())
                 .statusComentario(Utils.faker.number().numberBetween(1, 2))
                 .build();
 

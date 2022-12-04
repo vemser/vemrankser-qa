@@ -22,7 +22,7 @@ public class PageTest extends BaseTest {
     PageClient pageClient = new PageClient();
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveListarTodosOsModulos() {
 
         Modulo novoModulo = ModuloDataFactory.novoModulo();
@@ -37,7 +37,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveListarModuloPorId() {
 
         Modulo novoModulo = ModuloDataFactory.novoModulo();

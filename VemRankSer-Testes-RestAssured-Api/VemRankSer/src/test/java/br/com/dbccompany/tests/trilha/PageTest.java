@@ -42,7 +42,7 @@ public class PageTest extends BaseTest {
     UsuarioClient usuarioClient = new UsuarioClient();
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveListarPorTrilhaComAlunos() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -82,7 +82,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarListaDeTrilhaPorNome() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -111,7 +111,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarListaPorRanking() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -151,7 +151,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarListaDeTrilhaPorEdicao() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();
@@ -180,7 +180,7 @@ public class PageTest extends BaseTest {
     }
 
     @Test
-    @Story("Deve listarPaginado os elementos com sucesso")
+    @Story("Deve listar os elementos com sucesso")
     public void testeDeveRetornarTrilhaBuscadaPorId() {
 
         Trilha trilha =  TrilhaDataFactory.novaTrilha();

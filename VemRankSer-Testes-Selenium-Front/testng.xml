@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Todos os teste" verbose="2">
+<suite name="Todos os testes" verbose="2">
     <listeners>
         <listener class-name="br.com.vemrankser.browserHandler.ListenerTest"></listener>
     </listeners>
@@ -15,14 +15,19 @@
             <class name="br.com.vemrankser.steps.UsuarioSteps" />
         </classes>
     </test>
+    <test name="Components Page">
+        <classes>
+            <class name="br.com.vemrankser.steps.ComponentesSteps" />
+        </classes>
+    </test>
     <test name="Alunos Page">
         <classes>
             <class name="br.com.vemrankser.steps.AlunosSteps" />
         </classes>
     </test>
-    <test name="Components Page">
+    <test name="Atividades Page">
         <classes>
-            <class name="br.com.vemrankser.steps.ComponentesSteps" />
+            <class name="br.com.vemrankser.steps.AtividadeSteps" />
         </classes>
     </test>
 </suite>

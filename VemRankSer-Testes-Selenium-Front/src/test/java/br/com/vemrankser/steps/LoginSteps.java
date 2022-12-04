@@ -94,6 +94,4 @@ public class LoginSteps extends BaseSteps{
         Assert.assertEquals(loginPage.buscarMensagemErroInputEmail(), "Por favor, digite um email válido");
 
     }
-
-
 }

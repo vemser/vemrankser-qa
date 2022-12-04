@@ -1,4 +1,27 @@
 [ {
+  "data" : { }
+}, {
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "data" : {
+    "Product defects" : 5
+  }
+}, {
+  "data" : {
+    "Product defects" : 9
+  }
+}, {
+  "data" : {
+    "Product defects" : 20
+  }
+}, {
+  "data" : {
+    "Product defects" : 7,
+    "Test defects" : 5
+  }
+}, {
   "data" : {
     "Product defects" : 3,
     "Test defects" : 16

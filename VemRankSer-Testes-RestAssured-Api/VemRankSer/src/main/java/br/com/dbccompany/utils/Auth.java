@@ -1,8 +1,10 @@
 package br.com.dbccompany.utils;
 
 import com.google.gson.Gson;
+
 import br.com.dbccompany.data.changeless.LoginData;
 import br.com.dbccompany.model.Login;
+
 import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
@@ -42,5 +44,4 @@ public class Auth {
                         .extract().asString()
                 ;
     }
-
 }

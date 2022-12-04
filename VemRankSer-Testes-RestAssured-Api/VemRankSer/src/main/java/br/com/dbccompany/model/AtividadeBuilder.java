@@ -2,7 +2,6 @@ package br.com.dbccompany.model;
 
 import br.com.dbccompany.dto.TrilhaDTO;
 
-import java.util.Date;
 import java.util.List;
 
 public class AtividadeBuilder {
@@ -13,7 +12,6 @@ public class AtividadeBuilder {
     private String dataCriacao;
     private String dataEntrega;
     private Integer idModulo;
-
     private Integer pontuacao;
     private String link;
     private List<TrilhaDTO> trilha;
@@ -32,7 +30,6 @@ public class AtividadeBuilder {
         this.pesoAtividade = pesoAtividade;
         return this;
     }
-
 
     public AtividadeBuilder dataCriacao(String dataCriacao) {
         this.dataCriacao = dataCriacao;
@@ -54,25 +51,7 @@ public class AtividadeBuilder {
         return this;
     }
 
-    public AtividadeBuilder pontuacao(Integer pontuacao) {
-        this.pontuacao = pontuacao;
-        return this;
-    }
-
-    public AtividadeBuilder link(String link) {
-        this.link = link;
-        return this;
-    }
-
     public Atividade build() {
         return new Atividade(titulo, instrucoes, pesoAtividade, dataCriacao, dataEntrega, idModulo, trilha);
-    }
-
-    public Atividade buildLink() {
-        return new Atividade(link);
-    }
-
-    public Atividade buildPontuacao() {
-        return new Atividade(pontuacao);
     }
 }

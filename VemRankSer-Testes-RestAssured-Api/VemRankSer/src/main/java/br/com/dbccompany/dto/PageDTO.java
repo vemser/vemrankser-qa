@@ -1,6 +1,7 @@
 package br.com.dbccompany.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import lombok.Data;
 
 import java.util.List;
@@ -14,5 +15,4 @@ public class PageDTO {
     private String pagina;
     private String tamanho;
     private List<TodosDTO> elementos;
-
 }

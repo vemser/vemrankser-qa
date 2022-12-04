@@ -4,6 +4,7 @@ import br.com.dbccompany.model.Login;
 import br.com.dbccompany.model.LoginBuilder;
 import br.com.dbccompany.utils.Manipulation;
 import br.com.dbccompany.utils.Utils;
+
 import org.apache.commons.lang3.StringUtils;
 
 public class LoginDataFactory {

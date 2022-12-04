@@ -1,13 +1,13 @@
 package br.com.dbccompany.utils;
 
 import br.com.dbccompany.model.*;
+
 import com.google.gson.Gson;
+
 import net.datafaker.Faker;
+
 import org.junit.Assert;
 
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.util.Date;
 import java.util.Locale;
 
 public class Utils {
@@ -15,7 +15,7 @@ public class Utils {
     public static Faker faker = new Faker(new Locale("pt-BR"));
 
     public enum Env {
-        DEV, HML, PRD
+        DEV, PRD
     }
 
     public static String getBaseUrl() {
@@ -48,7 +48,6 @@ public class Utils {
         return Manipulation.getProp().getProperty("prop.env");
     }
 
-
     public static String convertLoginToJson(Login login) {
         return new Gson().toJson(login);
     }
@@ -60,6 +59,4 @@ public class Utils {
     public static String convertModuloToJson(Modulo modulo) { return new Gson().toJson(modulo); }
 
     public static String converterAtividadeToJson(Atividade atividade) { return new Gson().toJson(atividade); }
-
-
 }

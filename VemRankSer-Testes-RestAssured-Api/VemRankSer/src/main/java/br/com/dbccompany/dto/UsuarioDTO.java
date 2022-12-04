@@ -1,6 +1,7 @@
 package br.com.dbccompany.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import lombok.Data;
 
 @Data
@@ -17,5 +18,4 @@ public class UsuarioDTO {
     private String cidade;
     private String especialidade;
     private Integer idUsuario;
-
 }

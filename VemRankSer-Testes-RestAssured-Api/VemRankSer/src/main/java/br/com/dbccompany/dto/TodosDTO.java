@@ -1,6 +1,7 @@
 package br.com.dbccompany.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import lombok.Data;
 
 import java.util.Date;
@@ -15,7 +16,6 @@ public class TodosDTO {
     private String email;
     private Integer statusUsuario;
     private Integer tipoPerfil;
-
     private String instrucoes;
     private Integer pesoAtividade;
     private String dataCriacao;
@@ -34,4 +34,7 @@ public class TodosDTO {
     private String cidade;
     private String especialidade;
     private Integer idModulo;
+    private String statusAtividade;
+    private String nomeModulo;
+    private String trilhaNome;
 }

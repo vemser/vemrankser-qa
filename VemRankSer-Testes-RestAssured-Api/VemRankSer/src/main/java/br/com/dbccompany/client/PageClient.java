@@ -1,11 +1,8 @@
 package br.com.dbccompany.client;
 
-import br.com.dbccompany.data.changeless.ModuloData;
-import br.com.dbccompany.data.changeless.PageData;
-import br.com.dbccompany.data.changeless.TrilhaData;
-import br.com.dbccompany.data.changeless.UsuarioData;
-import br.com.dbccompany.dto.ModuloDTO;
+import br.com.dbccompany.data.changeless.*;
 import br.com.dbccompany.specs.AuthSpecs;
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -46,11 +43,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(PageData.NOME, nome)
-                    .when()
-                        .get(PageData.BUSCAR_NOME)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.NOME, nome)
+                .when()
+                    .get(PageData.BUSCAR_NOME)
                 ;
     }
 
@@ -58,13 +55,13 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(PageData.PAGINA, pagina)
-                        .queryParam(PageData.TAMANHO, tamanho)
-                        .queryParam(TrilhaData.ID_TRILHA, idTrilha)
-                    .when()
-                        .get(TrilhaData.LISTAR_TRILHAS_COM_USUARIOS)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
+                .when()
+                    .get(TrilhaData.LISTAR_TRILHAS_COM_USUARIOS)
                 ;
     }
 
@@ -72,11 +69,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(PageData.NOME, nome)
-                    .when()
-                        .get(TrilhaData.LISTAR_TRILHA_POR_NOME)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.NOME, nome)
+                .when()
+                    .get(TrilhaData.LISTAR_TRILHA_POR_NOME)
                 ;
     }
 
@@ -84,11 +81,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(TrilhaData.ID_TRILHA, idTrilha)
-                    .when()
-                        .get(TrilhaData.LISTAR_RANKING_TRILHA)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
+                .when()
+                    .get(TrilhaData.LISTAR_RANKING_TRILHA)
                 ;
     }
 
@@ -96,11 +93,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(TrilhaData.EDICAO, nome)
-                    .when()
-                        .get(TrilhaData.LISTAR_TRILHA_POR_EDICAO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(TrilhaData.EDICAO, nome)
+                .when()
+                    .get(TrilhaData.LISTAR_TRILHA_POR_EDICAO)
                 ;
     }
 
@@ -108,12 +105,12 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(PageData.PAGINA, pagina)
-                        .queryParam(PageData.TAMANHO, tamanho)
-                    .when()
-                        .get(PageData.LISTAR_ALUNOS)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                .when()
+                    .get(PageData.LISTAR_ALUNOS)
                 ;
     }
 
@@ -121,11 +118,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(UsuarioData.LOGIN, login)
-                    .when()
-                        .get(UsuarioData.BUSCAR_ALUNO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(UsuarioData.LOGIN, login)
+                .when()
+                    .get(UsuarioData.BUSCAR_ALUNO)
                 ;
     }
 
@@ -133,13 +130,13 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(PageData.PAGINA, pagina)
-                        .queryParam(PageData.TAMANHO, tamanho)
-                        .queryParam(PageData.NOME, nome)
-                    .when()
-                        .get(PageData.LISTAR_ALUNOS_TRILHA)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                    .queryParam(PageData.NOME, nome)
+                .when()
+                    .get(PageData.LISTAR_ALUNOS_TRILHA)
                 ;
     }
 
@@ -147,11 +144,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(PageData.ID, id)
-                    .when()
-                        .get(UsuarioData.BUSCAR_ID_USUARIO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.ID, id)
+                .when()
+                    .get(UsuarioData.BUSCAR_ID_USUARIO)
                 ;
     }
 
@@ -159,11 +156,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(TrilhaData.ID_TRILHA, idTrilha)
-                    .when()
-                        .get(TrilhaData.BUSCAR_ID_TRILHA)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
+                .when()
+                    .get(TrilhaData.BUSCAR_ID_TRILHA)
                 ;
     }
 
@@ -171,10 +168,10 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                    .when()
-                        .get(ModuloData.LISTA_TODOS_MODULOS)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                .when()
+                    .get(ModuloData.LISTA_TODOS_MODULOS)
                 ;
     }
 
@@ -182,11 +179,11 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(ModuloData.ID_MODULO, idModulo)
-                    .when()
-                        .get(ModuloData.BUSCA_MODULO_IDMODULO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(ModuloData.ID_MODULO, idModulo)
+                .when()
+                    .get(ModuloData.BUSCA_MODULO_IDMODULO)
                 ;
     }
 
@@ -194,11 +191,80 @@ public class PageClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam(ModuloData.ID_MODULO, idModulo)
-                    .when()
-                        .get(ModuloData.BUSCA_MODULO_IDMODULO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(ModuloData.ID_MODULO, idModulo)
+                .when()
+                    .get(ModuloData.BUSCA_MODULO_IDMODULO)
+                ;
+    }
+
+    public Response listarPaginadoAtividades(String pagina, String tamanho) {
+
+        return
+                given()
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                .when()
+                    .get(AtividadeData.LISTAR_PAGINADO)
+                ;
+    }
+
+    public Response listarAtividadeStatus(String pagina, String tamanho, Integer idTrilha, String atividadeStatus) {
+        return
+                given()
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
+                    .queryParam(AtividadeData.ATIVIDADE_STATUS, atividadeStatus)
+                .when()
+                    .get(AtividadeData.LISTAR_STATUS)
+                ;
+    }
+
+    public Response listarAtividadePorTrilhaModulo(String pagina, String tamanho, Integer idTrilha, Integer idModulo, String atividadeStatus) {
+        return
+                given()
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
+                    .queryParam(ModuloData.ID_MODULO, idModulo)
+                    .queryParam(AtividadeData.ATIVIDADE_STATUS, atividadeStatus)
+                .when()
+                    .get(AtividadeData.LISTAR_ATIVIDADE_POR_TRILHA_MODULO)
+                ;
+    }
+
+    public Response listarMuralInstrutor(String pagina, String tamanho, Integer idTrilha) {
+        return
+                given()
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                    .queryParam(TrilhaData.ID_TRILHA, idTrilha)
+                .when()
+                    .get(AtividadeData.LISTAR_MURAL_INSTRUTOR)
+                ;
+    }
+
+    public Response listarMuralAluno(String pagina, String tamanho, String atividadeStatus, Integer idUsuario) {
+        return
+                given()
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam(PageData.PAGINA, pagina)
+                    .queryParam(PageData.TAMANHO, tamanho)
+                    .queryParam(AtividadeData.ATIVIDADE_STATUS, atividadeStatus)
+                    .queryParam(UsuarioData.ID_USUARIO, idUsuario)
+                .when()
+                    .get(AtividadeData.LISTAR_MURAL_ALUNO)
                 ;
     }
 }

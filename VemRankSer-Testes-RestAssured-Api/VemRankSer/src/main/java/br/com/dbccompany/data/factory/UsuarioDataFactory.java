@@ -42,19 +42,10 @@ public class UsuarioDataFactory {
         return usuarioComEmailRepetido;
     }
 
-
-    public static Usuario usuarioComStatusCodeIncorreto() {
-
-        Usuario usuarioStatusCodeIncorreto = usuarioValido();
-        usuarioStatusCodeIncorreto.setStatusUsuario(3);
-
-        return usuarioStatusCodeIncorreto;
-    }
-
     private static Usuario novoUsuario() {
 
         Usuario usuario = new UsuarioBuilder().
-                foto("foto").
+                foto("").
                 nome(Utils.faker.name().fullName()).
                 login(Utils.faker.name().firstName()+"."+Utils.faker.name().lastName()).
                 email(Utils.faker.internet().emailAddress()).

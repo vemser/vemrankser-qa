@@ -5,408 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00fce309-33f6-4105-a565-98fbd69af21b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VemRankSer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/AtividadeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/AtividadeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/LoginClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/LoginClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/ModuloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/ModuloClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/PageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/PageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/TrilhaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/TrilhaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/UsuarioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/client/UsuarioClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/AtividadeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/AtividadeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/LoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/LoginData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/ModuloData.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/ModuloData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/PageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/PageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/TrilhaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/TrilhaData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/UsuarioData.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/UsuarioData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/Values.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/changeless/Values.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/AtividadeDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/AtividadeDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/ComentarioDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/ComentarioDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/LoginDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/LoginDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/ModuloDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/ModuloDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/TrilhaDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/TrilhaDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/UsuarioDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/data/factory/UsuarioDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/AtividadeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/AtividadeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/ModuloDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/ModuloDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/PageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/PageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/TodosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/TodosDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/TrilhaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/TrilhaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/UsuarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/dto/UsuarioDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/Atividade.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/Atividade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/AtividadeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/AtividadeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/Modulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/TrilhaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/model/TrilhaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/specs/AuthSpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/specs/AuthSpecs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/utils/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/utils/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/utils/Manipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/utils/Manipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/main/java/br/com/dbccompany/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/runners/TodosTestsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/runners/TodosTestsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/atividade/AtualizarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/atividade/AtualizarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/atividade/PageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/atividade/PageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/00125599-146b-4b13-b237-586126b18237-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/01d5f03c-2e88-45aa-bbee-523b40cfbc82-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/021e1f6d-2ef5-4cde-bfa7-611316c6f756-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/02a07700-af76-4b32-8f2a-07b445707b4f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/03194a4d-34c1-4fce-be64-38eb113bee24-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/03e70045-55c9-4aeb-a6e4-c90795764be5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/040e9d25-9f6c-4f9c-8e39-7d2673642be2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/046dccbd-748c-4605-b769-d39c3c207478-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/055ce9d4-4fd6-4723-a8f8-f028e58a6b9b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/07463990-cce9-4b2b-a88d-de5f6d57961e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/07738f22-aa68-4e63-9fb2-11d20ab9df9a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0a97463b-ea0a-4fce-9306-34f6062decf6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0abdaab1-c4af-41d4-aee4-cdae166cdde8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0c8b81b6-3127-4957-8406-885b1ebac797-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0d040fa5-a2b5-4f41-99a7-d5e4f1795131-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0de8cf48-2219-428a-8e6b-22cc6736bbec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0e4f9943-854e-4b83-9564-6e132d612a36-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0eb84166-24c3-4106-abf9-35cc4918bbff-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0f784f25-3fdb-44c1-be34-0fa9e4febe3e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/0fc3f28f-166b-46af-bf5b-51e1f2a256bd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/10427403-bf60-4bfe-98e7-fbf62de8f6bc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/128e4f23-6fb4-4ed1-9f62-7eecf33ef89f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/12a42e0c-3648-43fd-aef4-d100cbf8974c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/134ccb30-2d77-4c68-8504-324a279572c3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/134fe4b0-8226-4a1d-b783-95223c35b4f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/13ec9b29-12cc-4172-ba00-96d48629962e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/14b87249-17e7-4d0e-820e-8918efd55915-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/15545652-c118-43d9-9361-18348ace824f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/16654a9d-bed5-4790-8f84-d767a2203612-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1719061b-bebe-4d83-bff6-0319360d3047-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/17b0e352-5638-40a3-9e99-bd78128b4c51-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/18bec5de-1675-4f1f-addf-ce7cb3392dc9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1a463a91-09c8-4e72-93f4-377070933b6c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1a665471-3b91-4b23-8a7e-60249ac94ba3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1b60cdd0-5cff-4437-ba10-40f1cc6593f5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1ca8d9ea-3afa-490b-94c5-d0bae3714bad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1eb3c518-ce8d-4553-a2ca-eaca039798b8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1f1d941c-4999-465c-ac1b-60166c0222a3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1f28db91-af88-4499-bed3-f82027004d1f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1f5b436f-0594-4234-aba4-53480177c0ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1f5dfee8-b21b-4963-8411-17a913af736d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/1faa2651-1f59-4683-a2e1-2ca8df3b6d34-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/20920a41-8feb-4ca4-bd1e-c343d716d0a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/21518451-7c9a-4b77-985b-22d43ee2ccbe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/22385776-ae5b-446d-ab4d-5d9b2db6ed13-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/23fc9986-ca8f-448e-b38c-639a5e8ff448-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/24137ec6-2e0b-4c2e-94a8-fa6b6b22018e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2414913e-ff2b-48c7-b87b-7c77de5027b0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/247a9231-d37f-4044-bf4e-db483e7bc90a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/24abccab-6394-450c-b748-065ac0a04996-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/25107404-e3b3-43c9-85d7-4c83131c989c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/29e49222-9c4c-4b6b-bdb0-4cecdf4bec76-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2aaacc04-897d-496a-8946-a150493d366f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2c2e10d2-3f11-4ebf-9dd2-630810e55e8e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2d17e2b2-9210-4c25-ba62-e4f77258a569-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2e494407-6d3a-4913-a870-c986ca5473e5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2f05c918-bd46-40bc-8348-3bb7405c70d7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/2f4a3a9c-ea12-49a1-a08a-1ac133d5af46-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/31df6b11-5dd8-4c17-8693-20ab25bbfc52-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/31df9c4f-f690-4db7-bec2-c07d7f843dd1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3267548e-0c0e-4a41-bccb-614042e9a5d9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/32abc450-cda8-41d7-9bb6-3214883bd115-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3369d5d9-6cd0-475a-9068-cab6bfa162a9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/33b3b50e-e0c6-4392-ad1c-d77b9fad8f58-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/33b477e5-9a3c-4c72-adc2-6e015e6e6e33-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/33d07ff6-2ae5-4ce8-826c-d081aba6374b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/36678cb7-d9dc-486e-a052-bf868ff4f5c7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3884a387-e42f-434e-9d95-7391e4949779-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/38bc49bc-06e0-4741-9d4c-bead4b435cd2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/39d2b2fe-f5ef-492e-94ad-8d15e6dad3b3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3a065c47-6500-4178-a639-9929b144cb68-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3a5069b0-d2b7-4446-923e-d9ca2e4e7abb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3a91830a-ba4f-4a1e-9a8c-922579b67ec4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3b747e63-7687-4335-a249-8f9d2ed8c294-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3bb40d19-b128-4890-b174-0bc2acdc4c76-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3bc47bca-2fd1-40a6-a2f4-7af11153e312-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3bf3f310-1715-4a53-ba39-1afc434be58f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3c81243e-fbb3-453c-b42e-ad5596ec4bdd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3de0fddd-597b-42eb-af0f-510c390641b7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3e12b657-63d1-4cd8-88f4-4b5764b7a31f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3ee6b3f2-fd43-4232-878c-e28f079fbd84-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3efd2244-9018-46cb-a22d-d6bd12f8c1b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3f545e23-690b-4b80-818f-0798ed4491ea-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/3fe60041-d86e-430d-bb14-47430d81ff91-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/41e649b7-0eb7-4184-80cc-6abeeb25cb3d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/41f11d8e-463b-4ea6-89a0-1003595a9bb6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4240502a-9fa2-4493-9578-5f56b97632d9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4248f539-943c-4b36-8d20-52e4285a7e10-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/42d81a0e-4fb1-4041-b472-918f38aef2b3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4459dc8e-3af0-4e95-9e0c-56ef2b39a849-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/44b2fd09-1592-4e86-99db-0a5afae24d5f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4615d060-5c52-41bc-ab02-10e2f6b196bb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/46e2000e-d3f8-4130-987e-33f9dbfed6a9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/47360cec-7a7a-4e8e-b9a1-ec1c61da6113-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/47e3f81d-262f-43e3-8cbd-3cdb4dd286fe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/47f34e90-8e06-407d-bce3-d7ed11bd188f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/480e6f8a-2db1-4768-9e70-48005fec6f64-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/48e9dbf6-575b-4d8d-afd1-8eab46603950-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4915c1a2-11e9-48d5-ba3b-47d92e25133c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/499d51bf-40a1-4260-876e-e2a6ff57b668-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4a101220-6b21-4b2e-adef-17ef77756601-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4b131c51-a2b7-4a28-a774-348c44940a3a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4b3c2d95-a632-4ddc-b85c-13d19f6d5822-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4b4a6b4c-94bc-40ec-b5e6-969cda85fb14-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4bac8b22-00cd-4d9f-abcf-f04bec4a83f8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4d7cdccb-dd6c-4388-8871-d0759b5cff02-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4da0bbaa-3799-4c8c-b6c1-f9eeec3f6805-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4e99ffc5-106a-4319-9258-c0a944c4e79f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/4fcd795c-56b0-415f-bb88-90c6b6ed6eb1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/502b67c9-b415-4775-b3e6-ce4f34ceb2a8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5079f0f7-7d4a-40d4-b314-2742994d54fe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/513e32cf-92f2-456d-958c-56c309664b3b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/516a5d90-b4a8-4288-9906-66a54eda4e43-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/528375e6-e6b8-4cd3-8790-b475d2f5b7a1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5331875a-ae67-4810-9377-b7413c33c177-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/53bef7b7-3acd-456b-b318-62ee4d073d9d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/53d53fcd-5942-4923-bbfc-6849cbe87114-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/53e0ebef-b9be-4c33-8bb7-8a247314e00b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5630e69a-04f9-4f58-b590-bfdce04dfd9a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/56932a64-c922-4320-94af-e4002131cc39-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/589db429-79d1-46e7-873b-af5a9549494e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5a1ee7ce-bde1-4d82-a794-13bd30c9fc45-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5aae1af4-a07d-4d39-880a-772195ac413c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5acce138-f911-4021-8faf-010662cdb198-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5bca7230-4020-4edd-bbb4-1db261737a52-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5cab7a7c-6e52-491c-8599-81d7ee469f53-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5cd4b897-0c9b-495f-82f1-8630ef8be04f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5f4649c9-0eab-4e57-beb1-db45c8c64b11-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5f5fb9c1-9887-4af1-9fa4-9e246fd014c6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/5f9bcd78-a599-48d6-9560-34cd8c03789f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/60465d24-a35c-449b-ad2c-2c95622fa2ce-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6063bb5e-dcac-458a-bdfc-f0adc5890685-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/61640c9c-1fb6-42f2-9b3e-d3adb40e4b47-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6284d259-4ada-40fb-aa8c-d91944cf20b4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/628c579d-0263-4f63-bece-7e51d4525662-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/62dacb6c-cf4f-4a1d-8b89-a159797c84ef-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/62e8756d-02f5-43af-b62e-e65181733b3a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/63240863-f083-491d-943a-b833c915537f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/633111e4-3d0b-414d-828a-7b195efc904c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/640064d5-70f4-423b-b880-abe09ee2a4e9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/64f95c4d-809e-4a5c-90a6-a19ae7242d6a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6559ba5d-509a-4e75-a8fc-0e7ce05c2a6a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6564bfa5-d6e5-43a3-b000-b3c13ccb83d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/65e5794c-6597-4e6c-9565-f4f1e5948453-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6646a791-a973-41ff-b9dc-0bcdd797bedd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/664840a1-3bdf-4e8b-9f85-baf15c61739a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/66bf8c2b-85f9-4d62-80cf-94a35a30e8fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/66cb4d4c-a854-4347-a349-357d942b6641-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/682044f4-8b7e-4438-97d4-78e3f7e78a78-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/68c8f40e-f31c-406f-8c8e-9cd68253b841-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6a79f2f6-30f5-4416-8e46-0ddb9a68517b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6b392b82-f293-43f6-a443-a75ab5c79acb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6d58055d-bffa-4a6f-a575-f6dff7b4dec4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6df275f0-f7a1-402a-85d3-bb21986c3140-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6e1fc45b-c7b3-4087-950b-cc8e8db770fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6e5ca96e-fa5f-425b-a9c8-42db63770848-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/6f6ed704-6ff6-4067-a4e8-d1a08f4e6ea1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/70783375-239d-46b5-a82f-8d31f126fbc3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7141bd6d-d64d-46fe-98c1-017e2ce8b3a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/724f78b9-27c7-4b47-9ed8-f0df3e5f0244-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/72b52670-1289-41eb-ae19-63cd79922685-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/73399362-aabc-4e29-accf-86bb9635e7f0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/736a2f15-1af0-47ee-a4a4-ee9abe2061bb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/73e2d724-8cbb-48b9-9378-517ac4b9fd77-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/74293270-a8fa-4d1f-81b3-256d1f9810bd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/745ca9dd-5a69-4731-ac27-6dff9b97ec79-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/74ff32e9-1d63-4247-ac1c-d9c17820f552-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/75e1c44f-edaa-4106-bf87-ab365c310813-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/765b7c1d-0816-4f78-9ccf-fd89e8ba2807-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/76d5698f-6569-464e-b6a3-a23952dd2adc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/76d5dbe9-dac8-4c70-a5f6-5052331d8cc0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7723f243-9924-4eea-b062-ed4cbbfef0a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/777f525c-4a0e-47c4-a943-220ba14a882f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/78371d1e-1f0e-48f9-897d-21b87d0e7404-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/78c7d451-8a4f-4cb5-ab50-de56b3716cbe-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/792a0a5a-3d8f-4c1a-8224-86252122f667-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/79603e59-c2b5-4284-b787-97c36ff146e8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7af262c4-5630-4f8d-97df-4b5ab04ebc2d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7b3154ae-c203-463c-82ca-0812c3ad0d7c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7cda846b-7846-418b-98dd-27359bffb2ad-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7d2b38be-5fb0-48a2-b1b5-e39a6ee9f49f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7d336be8-c427-452c-adf8-9dbeeb81d01a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7da1ffdf-ad6d-4a56-853f-c5c4ec276703-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7ddf87d7-09ff-4a56-b7ed-ff1b54f8dffc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/7f3242f3-b538-47ec-82fc-872e13c6f724-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8032846b-b2c6-42fc-a8f4-af60ad0777b0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/809364ca-ca4a-402b-9b73-f47ede9f8819-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/80cde8d9-1743-4fee-ab73-c973ca178eb5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8100c273-3212-429b-b173-49c1a2db956f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8133ade1-7c5e-4eb0-9e44-c62f4f2ead39-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8140e947-1cf8-48ae-89e8-0c64392c80fe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/81fc6cb0-2b47-479d-a836-2e95c7744f24-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/82de3ac2-b51b-440c-9447-ebcdaf6e13cb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/83ad7d49-15f7-468c-921d-e76a8f6921ec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/843928a7-a4db-4937-80f3-8a673e1229d1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/84496fbf-12a7-4d4a-80fa-bd75009f6f1e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8589145e-45d5-4a6b-837c-483748dfe7ec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/85ab7ff2-b952-471c-bdf4-2a50bc0ce2b6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/85e06528-01a6-4e09-8862-702f5fd94ef8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/879f7790-abf5-4243-a2ed-7beb9c96d90e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/87cbc5b8-7a0a-4799-aad1-197c245bbaed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/881fda24-9f69-4b9e-87fe-46db2753358c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/892d860c-00a4-46e1-8502-ee8817c378df-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/89653e78-3043-4930-ba33-dd212ab51dae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8ae2a8f8-3eae-499a-b94a-bcd508e7ea22-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8b5c98b7-f5d3-4219-9150-d0ee9a9d389d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8bf50581-2e4b-44e4-90ae-f32b1eb50cf0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8c807e08-6791-43e0-b828-1140a5e75d9a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8d56e4dd-42a2-4bf8-a5bd-d05688fbf6f9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/8ffff2dc-fa2e-47dc-abad-7f5674b001e3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9035f956-8426-473c-8ed4-f549703afdf8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/91f770f9-5690-4000-b825-ee0d38b61b52-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/93718630-5231-4d6c-a6f1-1acd707a0c74-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/952736d2-3980-46a5-a049-98b978634607-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/95527f17-2f66-41a3-91a6-ad233c278814-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/95826140-25f7-43a1-b429-d0150d0e81e7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/96a30294-16fd-4cdd-bb9f-844cd9885573-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/97f24a39-d955-477f-872e-121b9a4b3513-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9806408d-293d-41d6-a135-96642fcbaf82-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/991cde11-84d8-4182-859b-674c9660f710-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9965e891-4878-469d-8687-50597e8647a1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9a7ba0f6-52d4-4f1f-847c-4677a3b5d9f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9a90d861-9206-4117-aab0-58f9cc1bbee9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9aa4465d-1afd-4985-83a8-1235036f0ca2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9ae26cf2-2c29-4fb0-b9c3-ff7526dc46a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9ba68f37-a4f2-42d2-a39f-f7e797648683-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9ba8da50-8188-4258-a0c5-0fa8a2081173-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9d8c1036-44f0-4afb-b03d-e146998e52b0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9d93baae-9977-46b9-96bb-625f8df0797e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9dbf1672-f6fa-48f0-86c4-e20f25e0db4a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9e40d3c3-78af-43a4-9c44-c16f3948f5a5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9e55e15b-bb84-4113-98e2-25cda2f5c51e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9eba4e56-dc8b-467c-9da3-20f5bae6f405-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9f202b1f-608e-413a-9d1b-8a4267098fcd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9f818fea-461b-4fef-ad44-7d25ec6720a7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/9f94367f-f0ad-414a-b23d-cba551803c8b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a07625a2-cb6a-45b9-ae1f-f1d0f04ffb1c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a13410bf-d440-497a-b502-3af2adfc92dd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a2224b7a-0afb-4180-a414-b46b1766d7e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a2ed6dd0-5a23-4a68-aaca-c419f82511a5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a3dda880-baa1-4760-8fe6-d415b209df44-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a49ae1d1-77c4-4f30-b92b-c8b48a679787-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a4a90e2d-9b87-47f7-ad44-19c48542cbf7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a61f4fe6-5a2b-4356-b939-7689a64f4ac9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a75e34be-de0e-4602-a8c2-1b9627f69a51-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a7727621-27ba-4803-bb07-97f207daf965-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/a92cdbed-71e3-4cbb-a477-4a50ef751241-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/aa4acbd7-0552-4f69-a391-56467feee7f4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/abe6976e-9105-467d-bb4c-ab16d88bacba-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/aca3c88e-051e-4c4b-aa2f-c55a47e37f35-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ad31a131-ed5b-4a03-98a7-016809021260-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ae82e8bd-efd3-46f4-9ddc-ed23afa84fb3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b032aea1-52c1-4ac9-8f74-8e7355aa8b19-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b0d04bcd-6d39-4174-b5ac-90f334b01973-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b20df3ac-d7b4-422c-87cb-56212de9336e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b24c6766-01c4-4c78-9955-f9f8dc844f32-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b3019901-32c7-4c50-90c5-3910abbe429f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b3f2d24c-e929-44b1-84be-c7d39ab4ff5a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b52e0794-7ff1-421f-a3cb-3ac36de693dd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b60c5778-5a32-4898-8dbd-f0aa276c638b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b7accde4-927c-4892-b341-06e586e7eae0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/b7e32395-a0f6-4e36-8d1b-67602b91ba76-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ba3d8ec3-e05b-4b3a-a869-79e249c7ecc3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ba69dbda-5b93-43ae-b785-b406359a6e53-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bac7ca02-e70a-4efb-80c9-e4965317d68c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bae5ebcb-68d7-44f2-88df-00b9623f0fe9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bb3c3ac9-d7c2-48e5-b6ab-53f85ee8e15e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bbf79e33-6d64-4d26-8660-ecaf58429cd3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bc0e79c3-0d07-4e8a-a551-5f5131057dfe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bc44f302-3ea1-4d06-94aa-01a35578c60f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bd6909c4-ab96-4a50-a2f8-69c44880977f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bda2ccb4-8167-4424-a8fe-1d4c79b3734b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bec05ff3-b8ba-428a-b848-f516c7da4bb8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bf177238-ed51-4cf4-9996-b24003ef4efe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/bfb7a21e-d2e1-447a-aaa7-e3a7117b3613-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c12c89f0-5b95-492c-b0b4-316bd8b2f3a3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c1400a08-fa85-4bd0-81d2-c59f21fe065f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c1a58518-299b-4827-8e16-1fca2a5d3168-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c3b051c4-f7c2-47f6-a3eb-508e70e0428e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c42c1369-6326-4b1d-bad2-df3985454de8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c5233f9b-55d1-4d84-b360-2745d9c9dbe4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c5d09751-16ed-4139-b1ac-0a1502148432-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c6643733-4e27-4677-a46e-3585c4a287b7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c68c4c51-ff0b-4402-9c3e-4d355d5ec3a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c72c3958-5722-4390-a6af-03f100e11bed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c7824407-7e6a-402c-ba64-c98eb9f62bab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c7bb1d0c-7db8-4eaf-ba80-61b9a039f88a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/c966c5bd-ed56-4b9e-b568-9f487266f1cb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/caf4233c-5bf4-4140-83c3-ed521ab6d836-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/cb3c03fb-825d-4e64-8042-8cea840a0d7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/cc971e3f-cbd7-4c64-8eab-72f35520ecb8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ce25e179-4cbd-4106-9be4-0b0322d9c47a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ce3b7eb2-a8fb-4439-b91c-0dbda89f5280-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ce414ca1-d4e9-40eb-9d9f-2b4e37e5f023-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ce57da58-2b4c-4278-95f5-8451c54b4b48-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/cf07bf8a-20a2-4723-ac92-d725379888a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/cf62859a-6107-4679-a9ca-fa21a683711b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/cfea2332-0885-4acb-a4c0-670eead4b43a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d0e98e90-66bc-435a-9432-3f9312f0d379-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d1693293-23fe-4b21-ad91-70d217d23094-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d2298e8e-c048-4eac-8bc9-9f9e3036a7a8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d2693d16-18d4-48cb-95db-1a8e7c7182d5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d403db15-469f-487d-a6fb-8c79bcad8d3f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d4df319f-30f4-47ae-a0e4-0a663aaad199-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d51f7ae4-f214-4471-b927-d5342120f082-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d58196e3-6b18-46c2-9743-051a08ea9ff0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d5abf294-08e2-461f-8530-94dc957bacb2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d5c4dff9-815d-4af3-b876-366774ffcbff-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d68cfa27-4a37-4dd2-b1a1-d33394e9ea22-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d7183f64-49ee-4e7f-a721-7fd971adafed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d75be17f-a5dc-49c7-945e-d80c186d2541-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d7e12ba7-5b99-45bb-8ff0-fed9d3edf7aa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d9023c4d-ddc9-44ee-ac85-fdf2437fd03c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/d9e11621-f5d6-49f6-92de-617f31cd9aa6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/da5b77d2-72d7-4618-8ac2-7cdc86090c95-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/db5170f2-0575-4b87-be40-01cd020a1721-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/db7f8b89-c60c-4aa0-a8e2-818afa67b221-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/dbbaa6ce-53b0-4467-a665-ddc68c91071f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/dc90f845-1278-4531-a549-a0ad690f7b9c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/dca5d343-c7c2-4a44-be40-d5a92f800162-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/dcd3fff1-8dc3-4d92-9718-a078a227083a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/de3a4b1f-eb6d-437d-806d-ef37b9c7dcff-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/de6676be-dae7-4b67-ba1f-8cf87a22cc41-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/de9e4100-44f3-4061-9443-6d59dfc763a0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/df8a310c-c4b5-4327-90db-4426c99ac5b0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e1357ab8-0b95-4364-a12d-d768949174fa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e198969b-1d5b-47f4-bbfe-5b048de13568-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e1cfd834-375e-40e0-ab3d-761c153fe54e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e254c15b-1ac8-472c-b6ff-a9fb857cd84e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e26c28ee-d9fd-47c2-8b4a-cb2762a797d4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e2fcd42d-f772-466b-ad88-45d0bef6f7ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e319f81c-2939-40de-8bd3-6d6ccb9b9d90-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e4c464e4-ae89-4428-87d0-561b8058a761-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e6ab8a1d-a341-4f44-9991-4a3a9acb6c8f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e75f6736-3b31-454b-9f7c-93232b9f9af8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e7ab1432-f4ce-4692-8094-6be1b58f01e3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e83cefcf-f1c7-443b-8bb1-21fd18210296-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/e8432f54-4643-4257-82c8-e163687734c8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/eab6cc78-584d-40c0-99c6-6d6cff10ae6a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/eb9da9f7-26dd-450f-b649-a32fccd5832d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/eba24256-3e41-43bf-b988-511ba58a8c58-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ebd3fbf7-410d-4166-8e30-365c96439645-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ed54d5d2-361f-482c-90c1-dcaf59d5607b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/edec47e9-a0b1-4aea-81af-83255af36c2e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/edf5c2a9-ad48-4896-b741-675e0a77d12f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/edf86da2-3ebd-410c-b4a2-cf50eb47e767-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ee2ae3fa-f6fd-4e49-bf91-f6a35fd699cc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ef343c00-2993-4524-943e-dabeb0a22025-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ef453d55-3648-450c-a5f3-bec6f65bf06b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ef968fc2-648d-49f4-a430-b9abe8cc4f57-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f05e26f3-25b5-41f7-98ff-990dca1fa0c0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f3c9be89-6b40-4e9b-b57b-b6945bd22bb9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f46d9088-4565-4fe5-b88e-ceb61ad03f34-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f630d901-c386-4c14-807f-1ca8dc99840c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f6459f72-6e32-4f01-98ba-480565627206-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f66461c6-b00b-48a0-9371-62e653d6b9f6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f70aae3f-71a4-4b16-bfa1-24ee0344f532-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f7a6ca1b-20e7-4392-8a29-afefa06b883f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/f8a8a3c1-a9a0-4ef0-aa24-f3e953a3289c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/faab3cd2-f8a5-4dbb-8803-0137a571f2d5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fb21ee55-a06a-4e06-86c7-076a4df81eb1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fb49c258-01d7-4426-8d0e-f443f3321529-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fc7f3c3a-f298-4b18-bbf5-1cb5c682a90a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fcc44251-7089-4256-87fd-6c203a3aaff4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fcdc95f8-94d0-4af9-8a42-ca5f2e6838df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fd46f5e7-b37e-42a1-bb14-529782daf80c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fd685c10-5ba0-4527-b67c-eaf7585b61ee-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fdca4f50-66a7-407d-84b0-6ad6c3dcd854-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fdcfd2f5-6c93-4c22-8144-3bf700cff51e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fdf06616-9cca-4346-a0d8-8ced8ebbbdc2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fe8b18cf-7916-4859-9d67-d2ffbbdd92b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/fed8bc79-b20c-40db-b220-3730cc41dd39-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ff63e6fe-56b4-41b3-942e-5bedd5082a15-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/ff9e6518-86a5-4699-85b9-f8cdfbf11a48-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/allure-results/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/browserHandler/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/browserHandler/ListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/UsuarioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/pages/UsuarioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/steps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/steps/UsuarioSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/steps/UsuarioSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/src/test/java/br/com/vemrankser/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VemRankSer-Testes-Selenium-Front/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/modulo/CadastrarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/modulo/CadastrarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/usuario/CadastrarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/VemRankSer/src/test/java/br/com/dbccompany/tests/usuario/CadastrarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -427,22 +79,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rawad.yehia/Desktop/vemrankser-qa/VemRankSer-Testes-RestAssured-Api/VemRankSer/allure-results",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rawad.yehia/Desktop/vemrankser-qa/VemRankSer-Testes-RestAssured-Api/VemRankSer/allure-results&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rawad.yehia\Desktop\vemrankser-qa\VemRankSer-Testes-RestAssured-Api\VemRankSer\allure-results" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.testeDeveRetornarUsuarioLogado">
+  <component name="RunManager" selected="JUnit.CadastratTest.testeDeveCadastrarNovaAtividade">
     <configuration name="CadastratTest.testeDeveCadastrarNovaAtividade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VemRankSer-Testes-RestAssured-Api" />
       <extension name="coverage">
@@ -459,17 +111,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testeDeveRetornarUsuarioLogado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VemRankSer-Testes-RestAssured-Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.dbccompany.tests.usuario.*" />
+          <option name="PATTERN" value="br.com.dbccompany.tests.atividade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.dbccompany.tests.usuario" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dbccompany.tests.usuario.LoginTest" />
-      <option name="METHOD_NAME" value="testeDeveRetornarUsuarioLogado" />
+      <option name="PACKAGE_NAME" value="br.com.dbccompany.tests.atividade" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dbccompany.tests.atividade.PageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.testeDeveListarAtividadeNoMuralInstrutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VemRankSer-Testes-RestAssured-Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dbccompany.tests.atividade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dbccompany.tests.atividade" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dbccompany.tests.atividade.PageTest" />
+      <option name="METHOD_NAME" value="testeDeveListarAtividadeNoMuralInstrutor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.testeDeveListarAtividadePendenteNoMuralAluno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VemRankSer-Testes-RestAssured-Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dbccompany.tests.atividade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dbccompany.tests.atividade" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dbccompany.tests.atividade.PageTest" />
+      <option name="METHOD_NAME" value="testeDeveListarAtividadePendenteNoMuralAluno" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.testeDeveRetornarMensagemDeErroAoListarMuralAlunoComIdNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VemRankSer-Testes-RestAssured-Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dbccompany.tests.atividade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dbccompany.tests.atividade" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dbccompany.tests.atividade.PageTest" />
+      <option name="METHOD_NAME" value="testeDeveRetornarMensagemDeErroAoListarMuralAlunoComIdNegativo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -477,8 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.testeDeveRetornarUsuarioLogado" />
         <item itemvalue="JUnit.CadastratTest.testeDeveCadastrarNovaAtividade" />
+        <item itemvalue="JUnit.PageTest.testeDeveListarAtividadePendenteNoMuralAluno" />
+        <item itemvalue="JUnit.PageTest.testeDeveListarAtividadeNoMuralInstrutor" />
+        <item itemvalue="JUnit.PageTest.testeDeveRetornarMensagemDeErroAoListarMuralAlunoComIdNegativo" />
+        <item itemvalue="JUnit.PageTest" />
       </list>
     </recent_temporary>
   </component>

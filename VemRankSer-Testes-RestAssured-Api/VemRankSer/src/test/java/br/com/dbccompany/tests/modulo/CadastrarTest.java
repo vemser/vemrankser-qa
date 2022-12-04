@@ -84,13 +84,11 @@ public class CadastrarTest extends BaseTest {
 
         ModuloDTO moduloCadastrado = moduloClient.cadastrar(Utils.convertModuloToJson(novoModulo))
                 .then()
-                .log().all()
                 .extract().as(ModuloDTO.class)
                 ;
 
         TrilhaDTO trilhaCadastrado = trilhaClient.cadastrar(Utils.convertTrilhaToJson(trilha))
                 .then()
-                .log().all()
                 .extract().as(TrilhaDTO.class)
                 ;
 

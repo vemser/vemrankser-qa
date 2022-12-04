@@ -2,6 +2,7 @@ package br.com.dbccompany.client;
 
 import br.com.dbccompany.data.changeless.UsuarioData;
 import br.com.dbccompany.specs.AuthSpecs;
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -42,12 +43,12 @@ public class UsuarioClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .pathParam("idUsuario", idUsusario)
-                        .body(usuarioAtualizado)
-                    .when()
-                        .put(UsuarioData.ATUALIZAR_USUARIO+"{idUsuario}")
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .pathParam("idUsuario", idUsusario)
+                    .body(usuarioAtualizado)
+                .when()
+                    .put(UsuarioData.ATUALIZAR_USUARIO+"{idUsuario}")
                 ;
     }
 
@@ -55,11 +56,11 @@ public class UsuarioClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .pathParam("idUsuario", idUsuario)
-                    .when()
-                        .get(UsuarioData.BUSCAR_FOTO+"{idUsuario}")
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .pathParam("idUsuario", idUsuario)
+                .when()
+                    .get(UsuarioData.BUSCAR_FOTO+"{idUsuario}")
                 ;
     }
 }

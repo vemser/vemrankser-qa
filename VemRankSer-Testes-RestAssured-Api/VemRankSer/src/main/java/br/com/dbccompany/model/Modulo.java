@@ -1,15 +1,8 @@
 package br.com.dbccompany.model;
 
-import br.com.dbccompany.dto.TrilhaDTO;
-import lombok.Data;
-import org.joda.time.DateTime;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.util.Date;
-import java.util.List;
+import lombok.Data;
+
 
 @Data
 public class Modulo {

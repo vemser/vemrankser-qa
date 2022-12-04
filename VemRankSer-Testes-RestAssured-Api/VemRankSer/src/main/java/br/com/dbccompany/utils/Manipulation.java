@@ -2,6 +2,7 @@ package br.com.dbccompany.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+
 import java.util.Properties;
 
 public class Manipulation {
@@ -18,5 +19,4 @@ public class Manipulation {
         }
         return props;
     }
-
 }

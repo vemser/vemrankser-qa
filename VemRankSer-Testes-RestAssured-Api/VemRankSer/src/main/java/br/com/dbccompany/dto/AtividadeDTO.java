@@ -2,7 +2,6 @@ package br.com.dbccompany.dto;
 
 import lombok.Data;
 
-import java.util.Date;
 import java.util.List;
 
 @Data
@@ -20,5 +19,4 @@ public class AtividadeDTO {
     private Integer statusAtividade;
     private String nomeInstrutor;
     private List<TrilhaDTO> trilhas;
-
 }

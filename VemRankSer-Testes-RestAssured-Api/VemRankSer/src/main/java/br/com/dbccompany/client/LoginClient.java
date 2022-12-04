@@ -2,13 +2,12 @@ package br.com.dbccompany.client;
 
 import br.com.dbccompany.data.changeless.LoginData;
 import br.com.dbccompany.data.changeless.Values;
-import br.com.dbccompany.specs.AuthSpecs;
 import br.com.dbccompany.utils.Auth;
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.requestSpecification;
 
 public class LoginClient {
 
@@ -29,10 +28,10 @@ public class LoginClient {
         Auth auth = new Auth();
         return
                 given()
-                        .log().all()
-                        .header(Values.AUTHORIZATION, auth.autenticacaoGeral(email, senha))
-                    .when()
-                        .get(LoginData.BUSCAR_USUARIO_LOGADO)
+                    .log().all()
+                    .header(Values.AUTHORIZATION, auth.autenticacaoGeral(email, senha))
+                .when()
+                    .get(LoginData.BUSCAR_USUARIO_LOGADO)
                 ;
     }
 }

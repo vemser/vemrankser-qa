@@ -5,7 +5,6 @@ import br.com.dbccompany.specs.AuthSpecs;
 
 import io.restassured.response.Response;
 
-
 import static io.restassured.RestAssured.given;
 
 public class ModuloClient {
@@ -15,11 +14,11 @@ public class ModuloClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .body(modulo)
-                    .when()
-                        .post(ModuloData.ADICIONAR_MODULO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .body(modulo)
+                .when()
+                    .post(ModuloData.ADICIONAR_MODULO)
                 ;
     }
 
@@ -27,11 +26,11 @@ public class ModuloClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .body(vinculacao)
-                    .when()
-                        .post(ModuloData.VINCULAR_MODULO_TRILHA+idModulo+"/"+idTrilha)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .body(vinculacao)
+                .when()
+                    .post(ModuloData.VINCULAR_MODULO_TRILHA+idModulo+"/"+idTrilha)
                 ;
     }
 }

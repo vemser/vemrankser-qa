@@ -1,14 +1,14 @@
 package br.com.dbccompany.data.factory;
 
-import br.com.dbccompany.model.Login;
-import br.com.dbccompany.model.LoginBuilder;
+
 import br.com.dbccompany.model.Trilha;
 import br.com.dbccompany.model.TrilhaBuilder;
-import br.com.dbccompany.utils.Manipulation;
 import br.com.dbccompany.utils.Utils;
+
 import org.apache.commons.lang3.StringUtils;
 
 import java.text.SimpleDateFormat;
+
 import java.util.Date;
 
 public class TrilhaDataFactory {

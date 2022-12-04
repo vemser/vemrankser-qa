@@ -3,7 +3,7 @@ package br.com.dbccompany.tests.usuario;
 import br.com.dbccompany.client.UsuarioClient;
 import br.com.dbccompany.data.changeless.UsuarioData;
 import br.com.dbccompany.data.factory.UsuarioDataFactory;
-import br.com.dbccompany.dto.TodosDTO;
+import br.com.dbccompany.dto.UsuarioDTO;
 import br.com.dbccompany.model.Usuario;
 import br.com.dbccompany.tests.base.BaseTest;
 import br.com.dbccompany.utils.Utils;
@@ -31,11 +31,11 @@ public class CadastrarTest extends BaseTest {
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
 
-        TodosDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.ALUNO,
+        UsuarioDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.ALUNO,
                         Utils.convertUsusarioToJson(usuarioNovo))
                 .then()
                 .statusCode(HttpStatus.SC_CREATED)
-                .extract().as(TodosDTO.class)
+                .extract().as(UsuarioDTO.class)
                 ;
 
         assertAll("usuario",
@@ -50,11 +50,11 @@ public class CadastrarTest extends BaseTest {
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
 
-        TodosDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.INSTRUTOR,
+        UsuarioDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.INSTRUTOR,
                         Utils.convertUsusarioToJson(usuarioNovo))
                 .then()
                 .statusCode(HttpStatus.SC_CREATED)
-                .extract().as(TodosDTO.class)
+                .extract().as(UsuarioDTO.class)
         ;
 
         assertAll("usuario",
@@ -69,11 +69,11 @@ public class CadastrarTest extends BaseTest {
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
 
-        TodosDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.COORDENADOR,
+        UsuarioDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.COORDENADOR,
                         Utils.convertUsusarioToJson(usuarioNovo))
                 .then()
                 .statusCode(HttpStatus.SC_CREATED)
-                .extract().as(TodosDTO.class)
+                .extract().as(UsuarioDTO.class)
         ;
 
         assertAll("usuario",
@@ -88,11 +88,11 @@ public class CadastrarTest extends BaseTest {
 
         Usuario usuarioNovo =  UsuarioDataFactory.usuarioValido();
 
-        TodosDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.GESTAO,
+        UsuarioDTO usuarioResponse = usuarioClient.cadastrar(UsuarioData.GESTAO,
                         Utils.convertUsusarioToJson(usuarioNovo))
                 .then()
                 .statusCode(HttpStatus.SC_CREATED)
-                .extract().as(TodosDTO.class)
+                .extract().as(UsuarioDTO.class)
         ;
 
         assertAll("usuario",

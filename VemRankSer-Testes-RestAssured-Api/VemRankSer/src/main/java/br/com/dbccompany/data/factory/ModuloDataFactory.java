@@ -1,26 +1,21 @@
 package br.com.dbccompany.data.factory;
 
-import br.com.dbccompany.dto.TrilhaDTO;
 import br.com.dbccompany.model.*;
 import br.com.dbccompany.utils.Utils;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateUtils;
-import org.joda.time.DateTime;
 
-import javax.xml.crypto.Data;
-import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
+
 import java.util.Date;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+
 
 public class ModuloDataFactory {
 
     static LocalDateTime now = LocalDateTime.now();
     static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
-
     static LocalDateTime future = LocalDateTime.now().plusHours(3);
     static String formatDateTimeNow = now.format(formatter);
     static String formatDateTimeFuture = future.format(formatter);

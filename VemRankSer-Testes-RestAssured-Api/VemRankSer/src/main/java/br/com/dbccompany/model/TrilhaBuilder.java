@@ -8,7 +8,6 @@ public class TrilhaBuilder {
     private String nome;
     private Integer edicao;
     private String anoEdicao;
-
     private Integer idTrilha;
     private String login;
 

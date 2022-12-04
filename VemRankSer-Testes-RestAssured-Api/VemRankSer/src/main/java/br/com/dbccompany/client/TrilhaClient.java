@@ -2,6 +2,7 @@ package br.com.dbccompany.client;
 
 import br.com.dbccompany.data.changeless.TrilhaData;
 import br.com.dbccompany.specs.AuthSpecs;
+
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
@@ -12,11 +13,11 @@ public class TrilhaClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .body(cadastroAtividade)
-                    .when()
-                        .post(TrilhaData.CADASTRO_TRILHA)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .body(cadastroAtividade)
+                .when()
+                    .post(TrilhaData.CADASTRO_TRILHA)
                 ;
     }
 
@@ -24,13 +25,13 @@ public class TrilhaClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam("login", login)
-                        .queryParam("idTrilha", idTrilha)
-                        .body(vinculacao)
-                    .when()
-                        .post(TrilhaData.VINCULAR_TRILHA_AO_ALUNO)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam("login", login)
+                    .queryParam("idTrilha", idTrilha)
+                    .body(vinculacao)
+                .when()
+                    .post(TrilhaData.VINCULAR_TRILHA_AO_ALUNO)
                 ;
     }
 
@@ -38,15 +39,13 @@ public class TrilhaClient {
 
         return
                 given()
-                        .log().all()
-                        .spec(AuthSpecs.requestSpecAdmin())
-                        .queryParam("login", login)
-                        .queryParam("idTrilha", idTrilha)
-                        .body(vinculacao)
-                    .when()
-                        .post(TrilhaData.VINCULAR_TRILHA_AO_INSTRUTOR)
+                    .log().all()
+                    .spec(AuthSpecs.requestSpecAdmin())
+                    .queryParam("login", login)
+                    .queryParam("idTrilha", idTrilha)
+                    .body(vinculacao)
+                .when()
+                    .post(TrilhaData.VINCULAR_TRILHA_AO_INSTRUTOR)
                 ;
     }
-
-
 }

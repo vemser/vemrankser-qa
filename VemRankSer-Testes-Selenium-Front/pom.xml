@@ -19,6 +19,7 @@
         <log4j-version>2.14.1</log4j-version>
         <extentreports-version>5.0.8</extentreports-version>
         <maven-surefire-plugin-version>3.0.0-M5</maven-surefire-plugin-version>
+        <rest-assured.version>4.4.0</rest-assured.version>
     </properties>
     <dependencies>
         <dependency>
@@ -81,6 +82,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
         </dependency>
     </dependencies>
     <build>

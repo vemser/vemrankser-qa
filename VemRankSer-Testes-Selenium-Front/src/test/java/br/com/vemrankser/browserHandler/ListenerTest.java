@@ -24,7 +24,7 @@ public class ListenerTest implements ITestListener {
     }
     @Override
     public void onTestFailure(ITestResult Result) {
-        //in below code, " DemoListener .driver" is used to get same driver from sample test class.
+
         TakesScreenshot  t = (TakesScreenshot) Browser.driver;
 
         File srcFile = t.getScreenshotAs(OutputType.FILE);

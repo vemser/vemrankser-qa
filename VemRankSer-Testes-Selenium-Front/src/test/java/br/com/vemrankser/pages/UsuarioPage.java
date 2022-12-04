@@ -2,6 +2,7 @@ package br.com.vemrankser.pages;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class UsuarioPage extends BasePage{
 
@@ -45,12 +46,6 @@ public class UsuarioPage extends BasePage{
             By.xpath("//*[@id=\"root\"]/main/div[3]/form/span[4]");
     private static final By msgErroCampoCidade =
             By.xpath("//*[@id=\"root\"]/main/div[3]/form/span[5]");
-    private static final By btnSairDaPagina =
-            By.xpath("//*[@id=\"root\"]/main/div[2]/div[6]");
-    private static final By btnSetaDiretaListaUsuarios =
-            By.xpath("//*[@id=\"root\"]/main/div[3]/section/div[2]/div/nav/ul/li[9]/button");
-    private static final By btnSetaEsquerdaListaUsuarios =
-            By.xpath("//*[@id=\"root\"]/main/div[3]/section/div[2]/div/nav/ul/li[1]/button");
     private static final By btnEditarUsuario =
             By.xpath("//*[@id=\"root\"]/main/div[3]/section/div[2]/div/div/div[2]/div[2]/div/div/div/div[1]/div[5]");
     private static final By selectRadioAtivo =
@@ -67,6 +62,9 @@ public class UsuarioPage extends BasePage{
             By.xpath("//*[@id=\"root\"]/main/div[3]/form/span[3]");
     private static final By campoErroCidadeEditar =
             By.xpath("//*[@id=\"root\"]/main/div[3]/form/span[4]");
+
+    public static final By msgContaCadastrada =
+            By.cssSelector("#\\31  > div.Toastify__toast-body > div:nth-child(2)");
 
 
     @Step("Preencher campo nome.")
@@ -132,6 +130,12 @@ public class UsuarioPage extends BasePage{
         click(btnInstrutor);
     }
 
+    @Step("Fechar toast conta cadastrada.")
+    public void fecharToastContaCadastrada() {
+
+        click(msgContaCadastrada);
+    }
+
     @Step("Selecionar tipo de perfil Aluno.")
     public void selecionarPerfilAluno() {
 
@@ -157,18 +161,6 @@ public class UsuarioPage extends BasePage{
         click(btnCancelar);
     }
 
-    @Step("Clicar botao seta direita lista.")
-    public void clicarBtnSetaDireitaLista() {
-
-        click(btnSetaDiretaListaUsuarios);
-    }
-
-    @Step("Clicar botao seta esquerda lista.")
-    public void clicarBtnSetaEsquerdaLista() {
-
-        click(btnSetaEsquerdaListaUsuarios);
-    }
-
     @Step("Clicar botao de editar usuario.")
     public void clicarBtnEditarUsuario() {
 
@@ -185,12 +177,6 @@ public class UsuarioPage extends BasePage{
     public void selectRadioInvativo() {
 
         click(selectRadioInvativo);
-    }
-
-    @Step("Clicar botao sair da conta.")
-    public void clicarBtnSairDaConta() {
-
-        click(btnSairDaPagina);
     }
 
     @Step("Clicar botao salvar na edicao do usuario.")
@@ -257,6 +243,13 @@ public class UsuarioPage extends BasePage{
     public String buscarMsgErroCampoCidadeEditar() {
 
         return getText(campoErroCidadeEditar);
+    }
+
+    @Step("Buscar campo toast conta cadastrada.")
+    public String buscarCampoToastContaCadastrada() {
+
+        wait.until(ExpectedConditions.visibilityOf(element(msgContaCadastrada)));
+        return getText(msgContaCadastrada);
     }
 
     @Step("Verificar radio Ativo esta selecionado.")

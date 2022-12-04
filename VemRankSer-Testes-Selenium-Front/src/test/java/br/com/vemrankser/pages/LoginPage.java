@@ -18,8 +18,6 @@ public class LoginPage extends BasePage{
     private static final By campoMensagemErroInputSenha =
             By.xpath("//*[@id=\"root\"]/div[2]/div[2]/form/span");
 
-
-
     @Step("Preencher campo endereço.")
     public String preencherCampoEmail(String email) {
 
@@ -61,4 +59,6 @@ public class LoginPage extends BasePage{
 
         return getText(campoMensagemErroInputSenha);
     }
+
+
 }

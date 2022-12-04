@@ -1,6 +1,7 @@
 package br.com.vemrankser.steps;
 
 import br.com.vemrankser.browserHandler.Elements;
+import br.com.vemrankser.pages.ComponentsPage;
 import br.com.vemrankser.pages.UsuarioPage;
 import br.com.vemrankser.pages.DashboardPage;
 import br.com.vemrankser.utils.Utils;
@@ -10,7 +11,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.naming.ldap.HasControls;
 import java.util.HashMap;
 
 public class UsuarioSteps extends BaseSteps {
@@ -19,6 +19,8 @@ public class UsuarioSteps extends BaseSteps {
 
     DashboardPage dashboardPage = new DashboardPage();
 
+    ComponentsPage componentsPage = new ComponentsPage();
+
     @Test
     @Feature("Adminstrador")
     @Story("Deve criar usuario com sucesso.")
@@ -26,7 +28,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -39,7 +41,7 @@ public class UsuarioSteps extends BaseSteps {
         usuarioPage.preencherCampoEspecialidade("Gestão de Pessoas");
         usuarioPage.clicarBtnAdicionar();
 
-        Assert.assertEquals(dashboardPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
+        Assert.assertEquals(usuarioPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
     }
 
     @Test
@@ -49,7 +51,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -62,7 +64,7 @@ public class UsuarioSteps extends BaseSteps {
         usuarioPage.preencherCampoEspecialidade("Back-End");
         usuarioPage.clicarBtnAdicionar();
 
-        Assert.assertEquals(dashboardPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
+        Assert.assertEquals(usuarioPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
     }
 
     @Test
@@ -72,7 +74,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -85,7 +87,7 @@ public class UsuarioSteps extends BaseSteps {
         usuarioPage.preencherCampoEspecialidade("QA");
         usuarioPage.clicarBtnAdicionar();
 
-        Assert.assertEquals(dashboardPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
+        Assert.assertEquals(usuarioPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
     }
 
     @Test
@@ -95,7 +97,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -108,7 +110,7 @@ public class UsuarioSteps extends BaseSteps {
         usuarioPage.preencherCampoEspecialidade("Diretor");
         usuarioPage.clicarBtnAdicionar();
 
-        Assert.assertEquals(dashboardPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
+        Assert.assertEquals(usuarioPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
     }
 
     @Test
@@ -118,7 +120,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -130,7 +132,7 @@ public class UsuarioSteps extends BaseSteps {
         usuarioPage.selecionarPerfilCoordenador();
         usuarioPage.clicarBtnAdicionar();
 
-        Assert.assertEquals(dashboardPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
+        Assert.assertEquals(usuarioPage.buscarCampoToastContaCadastrada(), "Pessoa cadastrada com sucesso!");
     }
 
     @Test
@@ -139,8 +141,8 @@ public class UsuarioSteps extends BaseSteps {
     public void testeDeveRetornarMensagemErroAoCadastrarNovoUsuarioComLoginExistenteNoBancoDeDados() {
 
         Utils.logar();
-        dashboardPage.clicarBtnUsuario();
-        HashMap<String, String> usuarioCriado = Utils.cadastrarUsuario();
+        componentsPage.clicarBtnUsuario();
+        HashMap<String, String> usuarioCriado = Utils.cadastrarUsuarioCoordenador();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -161,8 +163,8 @@ public class UsuarioSteps extends BaseSteps {
     public void testeDeveRetornarMensagemErroAoCadastrarNovoUsuarioComEmailExistenteNoBancoDeDados() {
 
         Utils.logar();
-        dashboardPage.clicarBtnUsuario();
-        HashMap<String, String> usuarioCriado = Utils.cadastrarUsuario();
+        componentsPage.clicarBtnUsuario();
+        HashMap<String, String> usuarioCriado = Utils.cadastrarUsuarioCoordenador();
 
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.preencherCampoNome(Utils.faker.name().firstName());
@@ -185,7 +187,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.selecionarPerfilCoordenador();
         usuarioPage.preencherCampoEspecialidade("Diretor");
@@ -205,7 +207,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.clicarBtnAdicionar();
 
@@ -223,7 +225,7 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
         usuarioPage.clicarBtnEditarUsuario();
 
         usuarioPage.preencherCampoNome(StringUtils.EMPTY);
@@ -246,40 +248,11 @@ public class UsuarioSteps extends BaseSteps {
 
         Utils.logar();
 
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
         usuarioPage.clicarBtnCadastrarUsuario();
         usuarioPage.clicarBtnCancelar();
 
-        Assert.assertEquals(Elements.getUrl(), "https://vemrankser.vercel.app/usuarios");
-    }
-
-    @Test
-    @Feature("Adminstrador")
-    @Story("Deve fazer a acao esperada.")
-    public void testeDeveRetornarAPaginaDeLoginAoClicarNoBotaoSairDaConta() {
-
-        Utils.logar();
-
-        dashboardPage.clicarBtnUsuario();
-        usuarioPage.clicarBtnCadastrarUsuario();
-        usuarioPage.clicarBtnSairDaConta();
-
-        Assert.assertEquals(Elements.getUrl(), "https://vemrankser.vercel.app/");
-    }
-
-    @Test
-    @Feature("Adminstrador")
-    @Story("Deve fazer a acao esperada.")
-    public void testeDeveVerificarAcaoDasSetasDireitaEsquerdaListaDeUsuarios() {
-
-        Utils.logar();
-        dashboardPage.clicarBtnUsuario();
-
-        usuarioPage.clicarBtnSetaDireitaLista();
-        Assert.assertEquals(Elements.getUrl(), "https://vemrankser.vercel.app/usuarios?pagina=2");
-
-        usuarioPage.clicarBtnSetaEsquerdaLista();
-        Assert.assertEquals(Elements.getUrl(), "https://vemrankser.vercel.app/usuarios?pagina=1");
+        Assert.assertEquals(Elements.getUrl(), "http://vemser-dbc.dbccompany.com.br:39000/vemser/vemrankser-front/usuarios");
     }
 
     @Test
@@ -288,7 +261,7 @@ public class UsuarioSteps extends BaseSteps {
     public void testeDeveVerificarAcaoDosSelectsAtivoEInativo() {
 
         Utils.logar();
-        dashboardPage.clicarBtnUsuario();
+        componentsPage.clicarBtnUsuario();
         usuarioPage.clicarBtnEditarUsuario();
 
         usuarioPage.selectRadioInvativo();

@@ -185,4 +185,6 @@ public class PageTest extends BaseTest{
         Assertions.assertEquals(atividadeBuscada.getStatus(), HttpStatus.SC_BAD_REQUEST);
         Assertions.assertEquals(atividadeBuscada.getMessage(), "Atividade não encontrada.");
     }
+
+
 }

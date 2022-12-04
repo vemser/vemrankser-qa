@@ -2,6 +2,7 @@ package br.com.vemrankser.pages;
 
 import br.com.vemrankser.browserHandler.Elements;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 public class BasePage extends Elements {
 
@@ -29,6 +30,7 @@ public class BasePage extends Elements {
         waitElement(by);
         return element(by).getAttribute("innerText");
     }
+
 
     public static boolean isSelected(By by) {
 

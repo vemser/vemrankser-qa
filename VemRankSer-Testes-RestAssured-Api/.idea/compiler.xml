@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="projeto-final-restassured" />
+        <module name="VemRankSer-Testes-RestAssured-Api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="projeto-final-restassured" target="19" />
+      <module name="VemRankSer-Testes-RestAssured-Api" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>

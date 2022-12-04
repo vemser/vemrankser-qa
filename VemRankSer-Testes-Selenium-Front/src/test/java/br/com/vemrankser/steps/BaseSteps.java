@@ -9,7 +9,7 @@ public class BaseSteps extends Browser {
 
     @BeforeMethod
     public void abrirNavegador() {
-        browserUp("https://vemrankser.vercel.app/");
+        browserUp("http://vemser-dbc.dbccompany.com.br:39000/vemser/vemrankser-front");
     }
 
     @AfterMethod

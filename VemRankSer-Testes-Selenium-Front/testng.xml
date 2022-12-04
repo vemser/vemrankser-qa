@@ -15,4 +15,14 @@
             <class name="br.com.vemrankser.steps.UsuarioSteps" />
         </classes>
     </test>
+    <test name="Alunos Page">
+        <classes>
+            <class name="br.com.vemrankser.steps.AlunosSteps" />
+        </classes>
+    </test>
+    <test name="Components Page">
+        <classes>
+            <class name="br.com.vemrankser.steps.ComponentesSteps" />
+        </classes>
+    </test>
 </suite>

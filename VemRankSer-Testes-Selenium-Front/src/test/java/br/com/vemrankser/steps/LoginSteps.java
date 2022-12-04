@@ -22,7 +22,7 @@ public class LoginSteps extends BaseSteps{
 
     @Test
     @Feature("Login")
-    @Story("Deve atualizar usuario com sucesso")
+    @Story("Deve realizar ação com sucesso.")
     public void testeDeveLogarComSucesso() throws InterruptedException {
 
         Utils.logar();
@@ -94,4 +94,6 @@ public class LoginSteps extends BaseSteps{
         Assert.assertEquals(loginPage.buscarMensagemErroInputEmail(), "Por favor, digite um email válido");
 
     }
+
+
 }
